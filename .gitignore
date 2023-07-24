@@ -2,3 +2,4 @@
 MedDRA Files/*
 !MedDRA Files/dist_file_format_26_0_English.pdf
 Output/*
+!Output/.gitkeep
