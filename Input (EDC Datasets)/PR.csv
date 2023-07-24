@@ -1,0 +1,5 @@
+CENTRE,SUBJECT_ID,SUBJECT_STATUS,SUBJECT_DE_STATUS,VISIT_ID,VISIT_NAME,VISIT_DATE,VISIT_OCC,FORM_OCCURENCE,MAIN_FORM_CODE,MAIN_FORM_OCCURENCE,SUBFORM_PARENT,SUBFORM_ITEMCODE,SUBFORM_PARENT_VALUE,USER_ID,PRTRT,PRINDC,PRINDC_CAT,PRDAT,PRDESC
+999,S007,Included,Validated,5,Common Forms,,1,1,PR_SUM,1,,PRLOG,,tom.choat,Valvuloplasty,Heart disease,AE,2/05/2007,XXX
+999,S008,Included,Validated,5,Common Forms,,1,1,PR_SUM,1,,PRLOG,,tom.choat,Tonsillectomy,Tonsillitis,MH,15/06/2019,XXX
+999,S009,Included,Validated,5,Common Forms,,1,1,PR_SUM,1,,PRLOG,,tom.choat,Hysterectomy,Ovarian cancer,AE,7/01/2013,XXX
+999,S010,Included,Validated,5,Common Forms,,1,1,PR_SUM,1,,PRLOG,,tom.choat,Masectomy,Breast cancer prohylaxis,PROPHYLAXIS,22/11/2002,XXX

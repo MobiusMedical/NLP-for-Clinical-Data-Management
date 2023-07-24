@@ -1,0 +1,34 @@
+CENTRE,SUBJECT_ID,SUBJECT_STATUS,SUBJECT_DE_STATUS,VISIT_ID,VISIT_NAME,VISIT_DATE,VISIT_OCC,FORM_OCCURENCE,MAIN_FORM_CODE,MAIN_FORM_OCCURENCE,SUBFORM_PARENT,SUBFORM_ITEMCODE,SUBFORM_PARENT_VALUE,USER_ID,MHTERM,MHCAT,MHSTDAT_d,MHSTDAT_m,MHSTDAT_y,MHSTDAT,MHONGO,MHENDAT_d,MHENDAT_m,MHENDAT_y,MHENDAT,MHDESC
+999,S001,Included,Incomplete,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Hypertension,MH,16,3,1998,16/03/1998,Y,,,,,XXXX
+999,S001,Included,Incomplete,1,Screening,,1,2,MH,1,,Medical_History,,tom.choat,headache.,MH,17,4,1999,17/04/1999,Y,,,,,XXXX
+999,S001,Included,Ongoing,1,Screening,,1,3,MH,1,,Medical_History,,tom.choat,rash on face,MH,18,5,2000,18/05/2000,Y,,,,,XXXX
+999,S001,Included,Ongoing,1,Screening,,1,4,MH,1,,Medical_History,,tom.choat,Covid 19,MH,19,6,2001,19/06/2001,Y,,,,,XXXX
+999,S002,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Psoriasis,MH,20,7,2002,20/07/2002,Y,,,,,XXXX
+999,S002,Included,Ongoing,1,Screening,,1,2,MH,1,,Medical_History,,tom.choat,Depression,MH,21,8,2003,21/08/2003,Y,,,,,XXXX
+999,S002,Included,Ongoing,1,Screening,,1,3,MH,1,,Medical_History,,tom.choat,Blinded,MH,22,9,2004,22/09/2004,Y,,,,,XXXX
+999,S002,Included,Ongoing,1,Screening,,1,4,MH,1,,Medical_History,,tom.choat,Melanoma,MH,23,10,2005,23/10/2005,Y,,,,,XXXX
+999,S002,Included,Ongoing,1,Screening,,1,5,MH,1,,Medical_History,,tom.choat,Anxiety,MH,24,11,2006,24/11/2006,Y,,,,,XXXX
+999,S003,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Low mood,MH,25,12,2007,25/12/2007,Y,,,,,XXXX
+999,S003,Included,Ongoing,1,Screening,,1,2,MH,1,,Medical_History,,tom.choat,Obesity,MH,26,1,2008,26/01/2008,N,30,5,2012,30/05/2012,XXXX
+999,S003,Included,Ongoing,1,Screening,,1,3,MH,1,,Medical_History,,tom.choat,Rheumatoid arthritis,MH,27,2,2009,27/02/2009,Y,,,,,XXXX
+999,S003,Included,Ongoing,1,Screening,,1,4,MH,1,,Medical_History,,tom.choat,Diabetes,MH,28,3,2010,28/03/2010,Y,,,,,XXXX
+999,S003,Included,Ongoing,1,Screening,,1,5,MH,1,,Medical_History,,tom.choat,Osteoporosis,MH,29,4,2011,29/04/2011,Y,,,,,XXXX
+999,S004,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Acne,MH,30,5,2012,30/05/2012,Y,,,,,XXXX
+999,S005,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Insomnia,MH,1,6,2013,1/06/2013,Y,,,,,XXXX
+999,S006,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Hyperhydrosis,MH,2,7,2014,2/07/2014,Y,,,,,XXXX
+999,S010,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Prophylactic hysterectomy,PR,25,12,2007,25/12/2007,,,,,,XXXX
+999,S011,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Prophylactic mastectomy,PR,25,12,2007,25/12/2007,,,,,,XXXX
+999,S012,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Rhinoplasty,PR,25,12,2007,25/12/2007,,,,,,XXXX
+999,S013,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Rhytidectomy,PR,25,12,2007,25/12/2007,,,,,,XXXX
+999,S014,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Headache,MH,2,3,2023,2/03/2023,N,3,3,2023,3/03/2023,XXXX
+999,S015,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Migraine,MH,2,3,2023,2/03/2023,N,5,3,2023,5/03/2023,XXXX
+999,S016,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Shoulder dislocation,MH,8,6,2023,8/06/2023,N,8,6,2023,8/06/2023,XXXX
+999,S017,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Hayfever,MH,8,12,2021,8/12/2021,N,15,6,2022,15/06/2022,XXXX
+999,S018,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Insomnia,MH,UN,5,2020,1/05/2020,Y,,,,,XXXX
+999,S019,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Covid 19,MH,UN,4,2021,1/04/2021,N,UN,5,2021,1/05/2021,XXXX
+999,S020,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Acne,MH,5,UNK,2020,5/01/2020,N,20,UNK,2020,20/01/2020,XXXX
+999,S021,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Diabetes,MH,UN,7,2019,1/07/2019,N,UN,7,2019,1/07/2019,XXXX
+999,S022,Included,Ongoing,1,Screening,,1,1,MH,1,,Medical_History,,tom.choat,Heart disease,MH,5,9,1998,5/09/1998,Y,,,,,XXXX
+999,S022,Included,Ongoing,1,Screening,,1,2,MH,1,,Medical_History,,tom.choat,Cardiovascular disease,MH,15,3,2006,15/03/2006,Y,,,,,XXXX
+999,S022,Included,Ongoing,1,Screening,,1,3,MH,1,,Medical_History,,tom.choat,Rhinoplasty,PR,20,5,2012,20/05/2012,,,,,,XXXX
+999,S022,Included,Ongoing,1,Screening,,1,4,MH,1,,Medical_History,,tom.choat,Nose operation,PR,20,5,2012,20/05/2012,,,,,,XXXX
