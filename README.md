@@ -3,14 +3,14 @@
 
 This project contains a series of Python scripts / Jupyter Notebooks with Natural Language Processing (NLP) capabilities that can be used to support traditional Clinical Data Management activities. The project currently consists of a MedDRA autocoder tool and a series of programatic data cleaning checks that would otherwise typically involve manual review of free-text information.
 
-The python scripts are experimental in nature and are intended mainly to provide examples / inspiration on how simple NLP can be implemented in everyday Clinical Data Management tasks to support and backup manual processes. Until you are familiar with the behaviour and performance, it is recommended that the outputs always be validated and reviewed before coding to any dictionary terms or raising any queries. It may be possible to convert these scripts into SAS equivalents - If so, please share the SAS code back into this repository if possible.
+The python scripts are experimental in nature and are intended mainly to provide examples / inspiration on how simple NLP can be implemented in everyday Clinical Data Management tasks to support manual processes. Until you are familiar with the behaviour and performance, it is recommended that the outputs always be validated and reviewed before coding to any dictionary terms or raising any queries. It may be possible to convert these scripts into SAS equivalents - If so, please share the SAS code back into this repository if possible.
 
 Additional AI-related clinical data management checks and tools may be added to this project as it evolves.
 
 ## Authors & Contributors
 
 Initial Author:
-* Thomas Choat
+* [Thomas Choat](https://github.com/tchoat)
 
 Contributors:
 
@@ -31,7 +31,7 @@ The following Python Library versions or higher are required for this project. E
 
 ## Detailed Project Information
 
-The Python scripts in this repository communicate with OpenAI's GPT-3 language models via an encrypted API connection. Please see OpenAI's 'API data usage' and 'API data privacy' policies to evaluate compatability with your organisation's data handling requirements. Specifically, the 'text-embedding-ada-002' model is used to represent natural language as numerical vectors, on which NLP tasks can then be performed. The scripts may be updated to work with newer embedding models as they become available, or you may wish to adapt them for use with a locally hosted LLM to avoid third party data handling.
+The Python scripts in this repository communicate with OpenAI's GPT-3 language models via an encrypted API connection. Please see OpenAI's 'API data usage' and 'API data privacy' policies to evaluate compatability with your organisation's data handling policies. Specifically, the 'text-embedding-ada-002' model is used to represent natural language as numerical vectors, on which NLP tasks can then be performed. The scripts may be updated to work with newer embedding models as they become available, or you may wish to adapt them for use with a locally hosted LLM to avoid third party data handling.
 
 ### MedDRA Autocoder
 This program takes your raw EDC-exported AE dataset and compares it with the MedDRA dictionary of available LLTs. OpenAI's 'text-embedding-ada-002' model is then accessed by the program to get numerical representations of all AE terms and LLTs, which are then semantically compared, and the X highest similarity matches (as specified by you) are provided in the output. The program does not identify situations where the AE term first needs querying (e.g. if further qualifying information is required in the term) - It will attempt to find the highest semantic LLT match based on the AE term that is present.
@@ -61,7 +61,7 @@ After discussing, you can contribute to the project by doing the following:
 2. Create a new branch in your local repository to work on the changes.
 3. Make the changes and then commit them to the branch you are working in.
 4. Push the changes to your forked repository.
-5. Initiate a pull request for the changes in your forked repository to be merged back into the main upstream repository.
+5. Initiate a pull request for the changes in your forked repository to be merged back into the main repository.
 
 ## License
 
