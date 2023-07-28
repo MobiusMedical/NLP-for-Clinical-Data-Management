@@ -1,4 +1,5 @@
 .ipynb_checkpoints/
 MedDRA Files/*
+!MedDRA Files/.gitkeep
 Output/*
 !Output/.gitkeep
