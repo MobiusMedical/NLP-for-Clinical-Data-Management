@@ -1,7 +1,7 @@
 # NLP-for-Clinical-Data-Management
 ## Brief Project Description
 
-This project contains a series of Python scripts / Jupyter Notebooks with Natural Language Processing (NLP) capabilities that can be used to support traditional Clinical Data Management activities. The project currently consists of a MedDRA autocoder tool and a series of programatic data cleaning checks that would otherwise typically involve manual review of free-text information.
+This project contains a series of Python scripts / Jupyter Notebooks with Natural Language Processing (NLP) capabilities that can be used to support traditional Clinical Data Management activities. The project currently consists of a MedDRA autocoder tool and a series of programmatic data cleaning checks that would otherwise typically involve manual review of free-text information.
 
 The python scripts are experimental in nature and are intended mainly to provide examples / inspiration on how simple NLP can be implemented in everyday Clinical Data Management tasks to support manual processes. Until you are familiar with the behaviour and performance, it is recommended that the outputs always be validated and reviewed before coding to any dictionary terms or raising any queries. It may be possible to convert these scripts into SAS equivalents - If so, please share the SAS code back into this repository if possible.
 
