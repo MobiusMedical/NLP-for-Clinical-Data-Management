@@ -1,0 +1,277 @@
+Form Code (Ascending),Item Code,Page,Stat Code,Data Type,Sequence,Literal,Unit of measure,List Code,Minimum Value Warning,Maximum Value Warning,Minimum Value Error,Maximum Value Error,Entry Places,Decimal Places,Entry Required,Required message,Read only,Hide Item,Not extractable,Default value,Parent item code,Sub-Form Code,Cell - Line number,Cell - Column number,Count Number
+AE - Adverse Events,AEACNOTH,1,,Group of Booleans,18,Action Taken in response to the AE (multiple items can be selected if 'None' is blank),,,,,,,,,Optional,,No,No,Yes,,,,,,1
+AE - Adverse Events,AEACNOTH_DRUG,1,AEACNOTH_DRUG,Boolean,1,Drug Intervention (medication taken),,,,,,,,,Optional,,No,No,No,,AEACNOTH,,,,1
+AE - Adverse Events,AEACNOTH_NDRNPR,1,AEACNOTH_NDRNPR,Boolean,4,"Other Intervention (e.g. physiotherapy, hospitalisation)",,,,,,,,,Optional,,No,No,No,,AEACNOTH,,,,1
+AE - Adverse Events,AEACNOTH_NDRNPR_SP,1,AEACNOTH_NDRNPR_SP,Text memo,20,Specify Other Intervention(s),,,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AEACNOTH_NONE,1,AEACNOTH_NONE,Boolean,0,None (no action required),,,,,,,,,Optional,,No,No,No,,AEACNOTH,,,,1
+AE - Adverse Events,AEACNOTH_PROC,1,AEACNOTH_PROC,Boolean,2,Procedural Intervention (procedure or surgery performed),,,,,,,,,Optional,,No,No,No,,AEACNOTH,,,,1
+AE - Adverse Events,AEACNOTH_TESTS,1,AEACNOTH_TESTS,Boolean,3,"Assessment / Test (e.g. ECG, lab test)",,,,,,,,,Optional,,No,No,No,,AEACNOTH,,,,1
+AE - Adverse Events,AEACNOTH_TESTS_SP,1,AEACNOTH_TESTS_SP,Text memo,19,Specify Assessment(s) / Test(s),,,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AEAWDAT,1,AEAWDAT,Date,8,Date of Site Awareness,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AEDIS,1,AEDIS,List of values,22,Caused Study Discontinuation?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AEENDAT,1,AEENDAT,Date,12,Resolution Date,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AEENTIM,1,AEENTIM,Time,14,Resolution Time,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AEENTIM_YN,1,AEENTIM_YN,List of values,13,Resolution Time Known?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AEHENDAT,1,AEHENDAT,Date,37,Hospital Discharge Date,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AEHENDAT_YN,1,AEHENDAT_YN,List of values,36,Has the patient been discharged from hospital yet?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AEHSTDAT,1,AEHSTDAT,Date,35,Hospital Admission Date,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AENARR,1,AENARR,Text memo,4,Adverse Event Narrative (optional),,,,,,,,,Optional,,No,No,No,,,,,,1
+AE - Adverse Events,AENOTDAT,1,AENOTDAT,Date,25,Sponsor Notification Date,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AENOTTYP,1,AENOTTYP,Drop-down list,26,Method of Notification,,AE SAE Notification Type,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AEONGO,1,AEONGO,List of values,9,Is the adverse event ongoing?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AEOUT,1,AEOUT,Drop-down list,21,AE Outcome,,AE Outcome - CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AEREL_DEV,1,AEREL_DEV,Drop-down list,15,Relationship of the AE to the device,,AE Device/Procedure Causality,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AEREL_PRO,1,AEREL_PRO,Drop-down list,16,Relationship of the AE to the device procedures,,AE Device/Procedure Causality,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AEREL_PROSP,1,AEREL_PROSP,Text memo,17,Specify Procedure(s),,,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AESCONG,1,AESCONG,List of values,32,Was the adverse event associated with a congenital anomaly or birth defect?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AESDISAB,1,AESDISAB,List of values,31,Did the adverse event result in disability or permanent damage?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AESDTH,1,AESDTH,List of values,28,Did the adverse event result in death?,,Yes/No-CDISC,,,,,,,Required,,No,No,No,,,,,,1
+AE - Adverse Events,AESER,1,AESER,List of values,11,Is the Adverse Event serious?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AESEV,1,AESEV,Drop-down list,10,What is the severity of the Adverse Event?,,AE Severity - CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AESHOSP,1,AESHOSP,List of values,30,Did the adverse event result in initial or prolonged hospitalization for the subject?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AESLIFE,1,AESLIFE,List of values,29,Was the adverse event life-threatening?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AESMIE,1,AESMIE,List of values,33,Was the adverse event a medically important event not covered by other serious criteria?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AESNOTYN,1,AESNOTYN,List of values,24,Has Sponsor been notified of the SAE?,,Yes/No-CDISC,,,,,,,Required,,No,No,No,,,,,,1
+AE - Adverse Events,AESPID,1,AESPID,Integer,2,Adverse Event Number,,,,,,,2,,Optional,,No,No,No,,,,,,1
+AE - Adverse Events,AESTDAT,1,AESTDAT,Date,5,Onset Date,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AESTTIM,1,AESTTIM,Time,7,Onset Time,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AESTTIM_YN,1,AESTTIM_YN,List of values,6,Onset Time Known?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+AE - Adverse Events,AETERM,1,AETERM,Text,3,Adverse Event Term,,,,,,,,,Required,,No,No,No,,,,,,1
+AE - Adverse Events,AEYN,1,AEYN,List of values,1,Was an adverse event experienced?,,Yes/No-CDISC,,,,,,,Required,,No,No,No,,,,,,1
+AE - Adverse Events,CDDAT,1,CDDAT,Date,41,Completion / Discontinuation Date (from DS_COMP),,,,,,,,,Optional,,No,Yes,Yes,,,,,,1
+AE - Adverse Events,CDSTAT,1,CDSTAT,Drop-down list,44,Patient's Completion / Discontinuation Status (from DS_COMP),,DS_COMP - Completion / Discontinuation Status,,,,,,,Optional,,No,Yes,Yes,,,,,,1
+AE - Adverse Events,DXDAT,1,DXDAT,Date,39,Procedure Date (from DX),,,,,,,,,Optional,,No,Yes,Yes,,,,,,1
+AE - Adverse Events,DXTIM,1,DXTIM,Time,40,Procedure Start Time(from DX),,,,,,,,,Optional,,No,Yes,Yes,,,,,,1
+AE - Adverse Events,Head1,1,,Header title,0,Adverse Event,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+AE - Adverse Events,Head2,1,,Header title,23,SAE Details,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+AE - Adverse Events,Head3,1,,Header title,27,Seriousness Criteria,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+AE - Adverse Events,ICDAT,1,ICDAT,Date,38,Date of Consent (from DS_IC),,,,,,,,,Optional,,No,Yes,Yes,,,,,,1
+AE - Adverse Events,LCDAT,1,LCDAT,Date,42,Date of Last Contact (from DS_COMP),,,,,,,,,Optional,,No,Yes,Yes,,,,,,1
+AE - Adverse Events,v1,1,,Line feed,34,,,,,,,,,,,,No,No,Yes,,,,,,1
+CE_SYM - Symptoms,CEACNOTH_DRUG,1,CEACNOTH_DRUG,Boolean,-1,Medication,,,,,,,,,Optional,,No,No,No,,CEACNOTH_t,,2,1,1
+CE_SYM - Symptoms,CEACNOTH_NONE,1,CEACNOTH_NONE,Boolean,-1,None,,,,,,,,,Optional,,No,No,No,,CEACNOTH_t,,1,1,1
+CE_SYM - Symptoms,CEACNOTH_OTH,1,CEACNOTH_OTH,Boolean,-1,Other,,,,,,,,,Optional,,No,No,No,,CEACNOTH_t,,5,1,1
+CE_SYM - Symptoms,CEACNOTH_OTHSPEC,1,CEACNOTH_OTHSPEC,Text,-1,Specify other action(s) taken,,,,,,,,,Confirmable,,No,No,No,,CEACNOTH_t,,6,1,1
+CE_SYM - Symptoms,CEACNOTH_PROC,1,CEACNOTH_PROC,Boolean,-1,Procedure,,,,,,,,,Optional,,No,No,No,,CEACNOTH_t,,3,1,1
+CE_SYM - Symptoms,CEACNOTH_t,1,,Table of items,8,Other Action(s) Taken inresponse to the symptom,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+CE_SYM - Symptoms,CEACNOTH_TEST,1,CEACNOTH_TEST,Boolean,-1,Test / Assessment,,,,,,,,,Optional,,No,No,No,,CEACNOTH_t,,4,1,1
+CE_SYM - Symptoms,CECAT,1,CECAT,Drop-down list,-1,Indicative of,,CE - Symptom Categories,,,,,,,Confirmable,,No,No,No,,CECAT_t,,1,1,1
+CE_SYM - Symptoms,CECAT_OTH,1,CECAT_OTH,Text,-1,Specify other,,,,,,,,,Confirmable,,No,No,No,,CECAT_t,,2,1,1
+CE_SYM - Symptoms,CECAT_t,1,,Table of items,1,Indicative of,,,,,,,,,,,No,No,Yes,,,,,,1
+CE_SYM - Symptoms,CEENDAT,1,CEENDAT,Date,-1,End Date,,,,,,,,,Confirmable,,No,No,No,,CEENDAT_t,,1,1,1
+CE_SYM - Symptoms,CEENDAT_t,1,,Table of items,4,End Date,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+CE_SYM - Symptoms,CEONGO,1,CEONGO,List of values,3,Ongoing?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+CE_SYM - Symptoms,CESEV,1,CESEV,Drop-down list,-1,Symptom Severity,,AE Severity - CDISC,,,,,,,Confirmable,,No,No,No,,CESEV_t,,1,1,1
+CE_SYM - Symptoms,CESEV_t,1,,Table of items,7,Symptom Severity,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+CE_SYM - Symptoms,CESTDAT,1,CESTDAT,Date,-1,Start Date,,,,,,,,,Confirmable,,No,No,No,,CESTDAT_t,,1,1,1
+CE_SYM - Symptoms,CESTDAT_t,1,,Table of items,2,Start Date,,,,,,,,,,,No,No,Yes,,,,,,1
+CE_SYM - Symptoms,CETERM,1,CETERM,Text,0,Symptom,,,,,,,,,Required,,No,No,No,,,,,,1
+CE_SYM - Symptoms,DXDAT,1,DXDAT,Date,9,Procedure Date (from DX),,,,,,,,,Optional,,No,Yes,Yes,,,,,,1
+CE_SYM - Symptoms,HOENDAT_HOSP,1,HOENDAT_HOSP,Date,-1,Discharge Date,,,,,,,,,Confirmable,,No,No,No,,HOSPDET_t,,3,1,1
+CE_SYM - Symptoms,HOONGO_HOSP,1,HOONGO_HOSP,List of values,-1,Hospital Ongoing?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,HOSPDET_t,,2,1,1
+CE_SYM - Symptoms,HOSPDET_t,1,,Table of items,6,Hospitalization Details,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+CE_SYM - Symptoms,HOSTDAT_HOSP,1,HOSTDAT_HOSP,Date,-1,Admission Date,,,,,,,,,Confirmable,,No,No,No,,HOSPDET_t,,1,1,1
+CE_SYM - Symptoms,HOYN_HOSP,1,HOYN_HOSP,List of values,5,Hospitalization Required?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+CE_SYM - Symptoms,LCDAT,1,LCDAT,Date,10,Date of Last Contact (from DS_COMP),,,,,,,,,Optional,,No,Yes,Yes,,,,,,1
+CE_SYM_SUM - Arrhythmia Symptom Recurrence,CESYMLOG,1,CESYMLOG,Sub-Form,2,,,,,,,,,,Required,,No,No,No,,,CE_SYM,,,1
+CE_SYM_SUM - Arrhythmia Symptom Recurrence,CEYN,1,CEYN,List of values,1,Are there any instances of arrhythmia symptom recurrence to report since the ablation procedure?,,Yes/No-CDISC,,,,,,,Required,,No,No,No,,,,,,1
+CE_SYM_SUM - Arrhythmia Symptom Recurrence,Head1,1,,Header title,0,Arrhythmia Symptom Recurrence,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+CM - Medications,CMCAT,1,CMCAT,Drop-down list,3,Medication Category,,CM - Drug Categories,,,,,,,Confirmable,,No,No,No,,,,,,1
+CM - Medications,CMDOSFRM,1,CMDOSFRM,Drop-down list,-1,Dose Form,,CDISC CM Dose Form,,,,,,,Confirmable,,No,No,No,,CMDOSFRM_t,,1,1,1
+CM - Medications,CMDOSFRM_OTH,1,CMDOSFRM_OTH,Text,-1,Specify other dose form,,,,,,,,,Confirmable,,No,No,No,,CMDOSFRM_t,,2,1,1
+CM - Medications,CMDOSFRM_t,1,,Table of items,9,Dose Form,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+CM - Medications,CMDOSFRQ,1,CMDOSFRQ,Drop-down list,-1,Frequency,,CDISC CM Frequency,,,,,,,Confirmable,,No,No,No,,CMDOSFRQ_t,,1,1,1
+CM - Medications,CMDOSFRQ_OTH,1,CMDOSFRQ_OTH,Text,-1,Specify other frequency,,,,,,,,,Confirmable,,No,No,No,,CMDOSFRQ_t,,2,1,1
+CM - Medications,CMDOSFRQ_t,1,,Table of items,10,Frequency,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+CM - Medications,CMDOSU,1,CMDOSU,Drop-down list,-1,Unit,,CDISC CM Units,,,,,,,Confirmable,,No,No,No,,CMDOSU_t,,1,1,1
+CM - Medications,CMDOSU_OTH,1,CMDOSU_OTH,Text,-1,Specify other unit,,,,,,,,,Confirmable,,No,No,No,,CMDOSU_t,,2,1,1
+CM - Medications,CMDOSU_t,1,,Table of items,8,Unit,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+CM - Medications,CMDSTXT,1,CMDSTXT,Real,7,Dose,,,,,0,,,3,Confirmable,,No,No,No,,,,,,1
+CM - Medications,CMENDAT,1,CMENDAT,Date,-1,End Date,,,,,,,,,Optional,,No,Yes,No,,CMENDAT_t,,4,1,1
+CM - Medications,CMENDAT_d,1,CMENDAT_d,Drop-down list,-1,Day,,Days,,,,,,,Confirmable,,No,No,No,,CMENDAT_t,,1,1,1
+CM - Medications,CMENDAT_m,1,CMENDAT_m,Drop-down list,-1,Month,,Months,,,,,,,Confirmable,,No,No,No,,CMENDAT_t,,2,1,1
+CM - Medications,CMENDAT_t,1,,Table of items,6,End Date,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+CM - Medications,CMENDAT_y,1,CMENDAT_y,Drop-down list,-1,Year,,Years,,,,,,,Confirmable,,No,No,No,,CMENDAT_t,,3,1,1
+CM - Medications,CMINDC,1,CMINDC,Text,2,Indication Term,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+CM - Medications,CMINDC_CAT,1,CMINDC_CAT,Drop-down list,1,Indication Category,,CM & PR - Indication Categories,,,,,,,Confirmable,,No,No,No,,,,,,1
+CM - Medications,CMONGO,1,CMONGO,List of values,5,Ongoing?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+CM - Medications,CMROUTE,1,CMROUTE,Drop-down list,-1,Route,,CDISC CM Route,,,,,,,Confirmable,,No,No,No,,CMROUTE_t,,1,1,1
+CM - Medications,CMROUTE_OTH,1,CMROUTE_OTH,Text,-1,Specify other route,,,,,,,,,Confirmable,,No,No,No,,CMROUTE_t,,2,1,1
+CM - Medications,CMROUTE_t,1,,Table of items,11,Route,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+CM - Medications,CMSTDAT,1,CMSTDAT,Date,-1,Start Date,,,,,,,,,Optional,,No,Yes,No,,CMSTDAT_t,,4,1,1
+CM - Medications,CMSTDAT_d,1,CMSTDAT_d,Drop-down list,-1,Day,,Days,,,,,,,Confirmable,,No,No,No,,CMSTDAT_t,,1,1,1
+CM - Medications,CMSTDAT_m,1,CMSTDAT_m,Drop-down list,-1,Month,,Months,,,,,,,Confirmable,,No,No,No,,CMSTDAT_t,,2,1,1
+CM - Medications,CMSTDAT_t,1,,Table of items,4,Start Date,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+CM - Medications,CMSTDAT_y,1,CMSTDAT_y,Drop-down list,-1,Year,,Years,,,,,,,Confirmable,,No,No,No,,CMSTDAT_t,,3,1,1
+CM - Medications,CMTRT,1,CMTRT,Text,0,Medication Name,,,,,,,,,Required,,No,No,No,,,,,,1
+CM - Medications,DOB,1,DOB,Date,16,Date of Birth (from DM),,,,,,,,,Optional,,No,Yes,Yes,,,,,,1
+CM - Medications,LCDAT,1,LCDAT,Date,17,Date of Last Contact (from DS_COMP),,,,,,,,,Optional,,No,Yes,Yes,,,,,,1
+CM_SUM - Prior & Concomitant Medications,CMLOG,1,CMLOG,Sub-Form,2,,,,,,,,,,Required,,No,No,No,,,CM,,,1
+CM_SUM - Prior & Concomitant Medications,CMYN,1,CMYN,List of values,1,Are there any prior or concomitant medications to report?,,Yes/No-CDISC,,,,,,,Required,,No,No,No,,,,,,1
+CM_SUM - Prior & Concomitant Medications,Head1,1,,Header title,0,Prior and Concomitant Medications,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+DM - Demographics,AGE,1,AGE,Integer,2,Age (at time of consent),years,,,120,,,,,Optional,,No,No,No,,,,,,1
+DM - Demographics,BRTHDAT,1,BRTHDAT,Date,1,Date of Birth,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DM - Demographics,DMCBP,1,DMCBP,List of values,4,Is the patient of child-bearing potential?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+DM - Demographics,DMCBP_CONT,1,DMCBP_CONT,Text memo,6,Contraception method(s) used by this patient,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DM - Demographics,DMNCBP_REAS,1,DMNCBP_REAS,Text memo,7,"Reason for non-child-bearing potential (e.g. postmenopausal, surgically sterile etc.)",,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DM - Demographics,ETHNIC,1,ETHNIC,List of values,8,Ethnicity,,Ethnicity - CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+DM - Demographics,Head1,1,,Header title,0,Demographics,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+DM - Demographics,Head3,1,,Header title,5,Ensure a pregnancy test is performed before the procedure,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+DM - Demographics,RACE,1,RACE,List of values,9,Race,,Race - CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+DM - Demographics,RACEOTH,1,RACEOTH,Text,10,Specify other race,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DM - Demographics,SEX,1,SEX,List of values,3,Sex,,SEX-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+DS_COMP - Study Completion / Discontinuation,ATT1Head,1,,Header title,-1,Attempt 1 Date: (phone call),,,,,,,,,Optional,,No,No,No,,Table1,,2,1,1
+DS_COMP - Study Completion / Discontinuation,ATT2Head,1,,Header title,-1,Attempt 2 Date: (phone call),,,,,,,,,Optional,,No,No,No,,Table1,,3,1,1
+DS_COMP - Study Completion / Discontinuation,ATT3Head,1,,Header title,-1,Attempt 3 Date: (phone call),,,,,,,,,Optional,,No,No,No,,Table1,,4,1,1
+DS_COMP - Study Completion / Discontinuation,ATT4Head,1,,Header title,-1,Attempt 4 Date: (letter or email),,,,,,,,,Optional,,No,No,No,,Table1,,5,1,1
+DS_COMP - Study Completion / Discontinuation,DSATT4TYP_COMP,1,DSATT4TYP_COMP,List of values,-1,Attempt 4 Method:,,DS_COMP - Lost To Follow-Up Attempt 4 Methods,,,,,,,Confirmable,,No,No,No,,Table1,,5,3,1
+DS_COMP - Study Completion / Discontinuation,DSDECOD_COMP,1,DSDECOD_COMP,Drop-down list,3,Patients status at time of completion or discontinuation,,DS_COMP - Completion / Discontinuation Status,,,,,,,Confirmable,,No,No,No,,,,,,1
+DS_COMP - Study Completion / Discontinuation,DSFUPATT1_COMP,1,DSFUPATT1_COMP,Date,-1,Attempt 1 Date (phone call),,,,,,,,,Confirmable,,No,No,No,,Table1,,2,2,1
+DS_COMP - Study Completion / Discontinuation,DSFUPATT2_COMP,1,DSFUPATT2_COMP,Date,-1,Attempt 2 Date (phone call),,,,,,,,,Confirmable,,No,No,No,,Table1,,3,2,1
+DS_COMP - Study Completion / Discontinuation,DSFUPATT3_COMP,1,DSFUPATT3_COMP,Date,-1,Attempt 3 Date (phone call),,,,,,,,,Confirmable,,No,No,No,,Table1,,4,2,1
+DS_COMP - Study Completion / Discontinuation,DSFUPATT4_COMP,1,DSFUPATT4_COMP,Date,-1,Attempt 4 Date (letter or email),,,,,,,,,Confirmable,,No,No,No,,Table1,,5,2,1
+DS_COMP - Study Completion / Discontinuation,DSLCDAT_COMP,1,DSLCDAT_COMP,Date,2,"Date of Last Contact (last follow-up contact made with patient, e.g. phone call)",,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DS_COMP - Study Completion / Discontinuation,DSSTDAT_COMP,1,DSSTDAT_COMP,Date,1,Date of Study Completion or Discontinuation (last visit or assessment performed in the study),,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DS_COMP - Study Completion / Discontinuation,DSTERMAE_COMP,1,DSTERMAE_COMP,Text memo,9,Adverse Event Number and Term that caused Withdrawal,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DS_COMP - Study Completion / Discontinuation,DSTERMCW_COMP,1,DSTERMCW_COMP,Text memo,6,Reason for Consent Withdrawal,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DS_COMP - Study Completion / Discontinuation,DSTERMCWD_COMP,1,DSTERMCWD_COMP,Date,7,Date Consent Withdrawn,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DS_COMP - Study Completion / Discontinuation,DSTERMIW_COMP,1,DSTERMIW_COMP,Text memo,8,Reason for Investigator Withdrawal,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DS_COMP - Study Completion / Discontinuation,DSTERMOTH_COMP,1,DSTERMOTH_COMP,Text memo,11,Specify Other Reason(s) for Withdrawal,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DS_COMP - Study Completion / Discontinuation,DSTERMPD_COMP,1,DSTERMPD_COMP,Integer,10,Protocol Deviation Number that caused Withdrawal,,,,,1,,,,Confirmable,,No,No,No,,,,,,1
+DS_COMP - Study Completion / Discontinuation,DSTERMSF_COMP,1,DSTERMSF_COMP,Text memo,4,Reason for Screen Failure (include eligibility criteria numbers failed),,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DS_COMP - Study Completion / Discontinuation,Head1,1,,Header title,0,Study Completion / Discontinuation,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+DS_COMP - Study Completion / Discontinuation,Head2,1,,Header title,-1,Follow-Up Attempts,,,,,,,,,Optional,,No,No,No,,Table1,,1,1,1
+DS_COMP - Study Completion / Discontinuation,Table1,1,,Table of items,5,,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+DS_COMP - Study Completion / Discontinuation,v1,1,,Header title,-1,,,,,,,,,,Optional,,No,No,No,,Table1,,1,3,1
+DS_COMP - Study Completion / Discontinuation,v2,1,,Header title,-1,,,,,,,,,,Optional,,No,No,No,,Table1,,2,3,1
+DS_COMP - Study Completion / Discontinuation,v3,1,,Header title,-1,,,,,,,,,,Optional,,No,No,No,,Table1,,3,3,1
+DS_COMP - Study Completion / Discontinuation,v7,1,,Header title,-1,,,,,,,,,,Optional,,No,No,No,,Table1,,4,3,1
+DS_IC - Informed Consent,DSPERF1_IC,1,DSPERF1_IC,List of values,1,Was Informed Consent Obtained?,,Yes/No-CDISC,,,,,,,Required,,No,No,No,,,,,,1
+DS_IC - Informed Consent,DSPERF2_IC,1,DSPERF2_IC,List of values,5,Did the patient consent to the Sub-Study?,,Yes/No-CDISC,,,,,,,Required,,No,No,No,,,,,,1
+DS_IC - Informed Consent,DSPRDTOTH1_IC,1,DSPRDTOTH1_IC,Date,-1,Date,,,,,,,,,Confirmable,,No,No,No,,Table1,,2,2,1
+DS_IC - Informed Consent,DSPRDTOTH2_IC,1,DSPRDTOTH2_IC,Date,-1,Date,,,,,,,,,Confirmable,,No,No,No,,Table2,,2,2,1
+DS_IC - Informed Consent,DSPRV1_IC,1,DSPRV1_IC,Drop-down list,-1,Protocol Version at Time of Main Study Consent,,Protocol Version,,,,,,,Confirmable,,No,No,No,,Table1,,1,1,1
+DS_IC - Informed Consent,DSPRV2_IC,1,DSPRV2_IC,Drop-down list,-1,Protocol Version at Time of Sub-Study Consent,,Protocol Version,,,,,,,Confirmable,,No,No,No,,Table2,,1,1,1
+DS_IC - Informed Consent,DSPRVOTH1_IC,1,DSPRVOTH1_IC,Text,-1,Other Version,,,,,,,,,Confirmable,,No,No,No,,Table1,,2,1,1
+DS_IC - Informed Consent,DSPRVOTH2_IC,1,DSPRVOTH2_IC,Text,-1,Other Version,,,,,,,,,Confirmable,,No,No,No,,Table2,,2,1,1
+DS_IC - Informed Consent,DSSTDAT1_IC,1,DSSTDAT1_IC,Date,3,Date Patient Signed Main Study Consent,,,,,,,,,Required,,No,No,No,,,,,,1
+DS_IC - Informed Consent,DSSTDAT2_IC,1,DSSTDAT2_IC,Date,7,Date Patient Signed Sub-Study Consent,,,,,,,,,Required,,No,No,No,,,,,,1
+DS_IC - Informed Consent,Head1,1,,Header title,0,Informed Consent,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+DS_IC - Informed Consent,Head2,1,,Header title,2,Assessments relating to the main study should NOT be performed on this patient,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+DS_IC - Informed Consent,Head3,1,,Header title,6,Assessments relating to the sub-study should NOT be performed on this patient,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+DS_IC - Informed Consent,Table1,1,,Table of items,4,,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+DS_IC - Informed Consent,Table2,1,,Table of items,8,,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+DS_IC_RE - Reconsent,DSPERF_ICRE,1,DSPERF_ICRE,List of values,1,Was Informed Consent Obtained?,,Yes/No-CDISC,,,,,,,Required,,No,No,No,,,,,,1
+DS_IC_RE - Reconsent,DSPRDTOTH_ICRE,1,DSPRDTOTH_ICRE,Date,-1,Date,,,,,,,,,Confirmable,,No,No,No,,Table1,,2,2,1
+DS_IC_RE - Reconsent,DSPRV_ICRE,1,DSPRV_ICRE,Drop-down list,-1,Protocol Version at Time of Consent,,Protocol Version,,,,,,,Confirmable,,No,No,No,,Table1,,1,1,1
+DS_IC_RE - Reconsent,DSPRVOTH_ICRE,1,DSPRVOTH_ICRE,Text,-1,Other Version,,,,,,,,,Confirmable,,No,No,No,,Table1,,2,1,1
+DS_IC_RE - Reconsent,DSSTDAT_ICRE,1,DSSTDAT_ICRE,Date,3,Date Patient Signed Consent,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DS_IC_RE - Reconsent,DSTYPE_ICRE,1,DSTYPE_ICRE,Drop-down list,2,Consent Type,,IC_RE - Reconsent Types,,,,,,,Confirmable,,No,No,No,,,,,,1
+DS_IC_RE - Reconsent,Head1,1,,Header title,0,Informed Consent,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+DS_IC_RE - Reconsent,ICDAT,1,ICDAT,Date,5,Date of Consent (from DS_IC),,,,,,,,,Optional,,No,Yes,Yes,,,,,,1
+DS_IC_RE - Reconsent,Table1,1,,Table of items,4,,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+DV - Protocol Deviations,DVASSESS,1,DVASSESS,Drop-down list,4,Related Assessment,,Assessment Names,,,,,,,Confirmable,,No,No,No,,,,,,1
+DV - Protocol Deviations,DVDECOD,1,DVDECOD,Drop-down list,11,Deviation Category,,Deviation Category,,,,,,,Confirmable,,No,No,No,,,,,,1
+DV - Protocol Deviations,DVDECOD_OTH,1,DVDECOD_OTH,Text memo,12,Specify Other Category,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DV - Protocol Deviations,DVDESC,1,DVDESC,Text memo,10,"Detailed Deviation Narrative (include details relating to the source of the deviation,
+its impact on the study, and the immediate action taken)",,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DV - Protocol Deviations,DVHRECNOT,1,DVHRECNOT,List of values,-1,Was HREC notification required?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,tHRECN,,1,1,1
+DV - Protocol Deviations,DVHRECNOTDAT,1,DVHRECNOTDAT,Date,-1,HREC Notification Date,,,,,,,,,Confirmable,,No,No,No,,tHRECN,,1,2,1
+DV - Protocol Deviations,DVOUTC,1,DVOUTC,Text memo,13,Outcome / Corrective Action,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DV - Protocol Deviations,DVPTSAFE,1,DVPTSAFE,List of values,6,Was patient safety compromised?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+DV - Protocol Deviations,DVSPID,1,DVSPID,Integer,2,Protocol Deviation Number,,,,,,,,,Optional,,No,No,No,,,,,,1
+DV - Protocol Deviations,DVSPNOT,1,DVSPNOT,List of values,-1,Was Sponsor notification required?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,tSN,,1,1,1
+DV - Protocol Deviations,DVSPNOTDAT,1,DVSPNOTDAT,Date,-1,Sponsor Notification Date,,,,,,,,,Confirmable,,No,No,No,,tSN,,1,2,1
+DV - Protocol Deviations,DVSTDAT,1,DVSTDAT,Date,5,Date of Deviation,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DV - Protocol Deviations,DVTERM,1,DVTERM,Text memo,9,Short Deviation Summary,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+DV - Protocol Deviations,DVVISIT,1,DVVISIT,Drop-down list,3,Related Visit,,Visit Names,,,,,,,Confirmable,,No,No,No,,,,,,1
+DV - Protocol Deviations,DVYN,1,DVYN,List of values,1,Did a protocol deviation occur?,,Yes/No-CDISC,,,,,,,Required,,No,No,No,,,,,,1
+DV - Protocol Deviations,Head1,1,,Header title,0,Protocol Deviation,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+DV - Protocol Deviations,tHRECN,1,,Table of items,8,,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+DV - Protocol Deviations,tSN,1,,Table of items,7,,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+EG - Electrocardiogram,EGASSESS,1,EGASSESS,List of values,18,Overall assessment of the ECG,,Normal/Abnormal Assessment,,,,,,,Confirmable,,No,No,No,,,,,,1
+EG - Electrocardiogram,EGCLSIG,1,EGCLSIG,List of values,19,Were the abnormality(s) clinically significant?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+EG - Electrocardiogram,EGDAT,1,EGDAT,Date,3,Date Performed,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+EG - Electrocardiogram,EGFINDLIST,1,EGFINDLIST,Text memo,15,List other notable ECG findings,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+EG - Electrocardiogram,EGORRES_HR,1,EGORRES_HR,Integer,7,Heart Rate,bpm,,30,200,0,999,3,,Confirmable,,No,No,No,,,,,,1
+EG - Electrocardiogram,EGORRES_PR,1,EGORRES_PR,Integer,8,PR Interval,msec,,,,0,,3,,Confirmable,,No,No,No,,,,,,1
+EG - Electrocardiogram,EGORRES_QRS,1,EGORRES_QRS,Integer,9,QRS Duration,msec,,,,0,,3,,Confirmable,,No,No,No,,,,,,1
+EG - Electrocardiogram,EGORRES_QT,1,EGORRES_QT,Integer,10,QT Interval,msec,,,,0,,3,,Confirmable,,No,No,No,,,,,,1
+EG - Electrocardiogram,EGORRES_QTCF,1,EGORRES_QTCF,Integer,11,QTcF Interval,msec,,,,0,,3,,Confirmable,,No,No,No,,,,,,1
+EG - Electrocardiogram,EGOTHFIND,1,EGOTHFIND,List of values,14,Were there any other notable ECG findings?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+EG - Electrocardiogram,EGPERF,1,EGPERF,List of values,1,Was an ECG Performed?,,Yes/No-CDISC,,,,,,,Required,,No,No,No,,,,,,1
+EG - Electrocardiogram,EGREASND,1,EGREASND,Text memo,2,Reason ECG not performed,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+EG - Electrocardiogram,EGTIM,1,EGTIM,Time,4,Time ECG Taken,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+EG - Electrocardiogram,Head1,1,,Header title,0,Electrocardiogram,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+EG - Electrocardiogram,Head2,1,,Header title,6,Result,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+EG - Electrocardiogram,Head3,1,,Header title,17,Assessment,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+EG - Electrocardiogram,Head4,1,,Header title,13,Other Notable Findings,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+EG - Electrocardiogram,v1,1,,Line feed,5,,,,,,,,,,,,No,No,Yes,,,,,,1
+EG - Electrocardiogram,v2,1,,Line feed,12,,,,,,,,,,,,No,No,Yes,,,,,,1
+EG - Electrocardiogram,v3,1,,Line feed,16,,,,,,,,,,,,No,No,Yes,,,,,,1
+IE - Eligibility,IECAT,1,IECAT,Drop-down list,-1,Criterion category patient failed on,,CDISC IE Category,,,,,,,Confirmable,,No,No,No,,Table1,,1,1,1
+IE - Eligibility,IETESTCD,1,IETESTCD,Drop-down list,-1,Criterion number patient failed on,,IE Criteria,,,,,,,Confirmable,,No,No,No,,Table1,,1,2,1
+IE - Eligibility,Table1,1,,Table of items,0,,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+IE_SUM - Eligibility Review,Eligibility,1,Eligibility,Sub-Form,6,,,,,,,,,,Confirmable,,No,No,No,,,IE,,,1
+IE_SUM - Eligibility Review,Head1,1,,Header title,0,Eligibility Review,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+IE_SUM - Eligibility Review,IEDAT,1,IEDAT,Date,3,Date of Review,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+IE_SUM - Eligibility Review,IEPERF,1,IEPERF,List of values,1,Was eligibility review performed?,,Yes/No-CDISC,,,,,,,Required,,No,No,No,,,,,,1
+IE_SUM - Eligibility Review,IEREASND,1,IEREASND,Text memo,2,Reason eligibility review not performed,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+IE_SUM - Eligibility Review,IEYN,1,IEYN,List of values,5,Was the patient eligible for the study?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+IE_SUM - Eligibility Review,v1,1,,Line feed,4,,,,,,,,,,,,No,No,Yes,,,,,,1
+LB_PREG - Pregnancy Test,Head1,1,,Header title,0,Pregnancy Test,,,,,,,,,,,No,No,Yes,,,,,,1
+LB_PREG - Pregnancy Test,LBDAT_PREG,1,LBDAT_PREG,Date,3,Sample collection date,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+LB_PREG - Pregnancy Test,LBORRES_PREG,1,LBORRES_PREG,List of values,6,Result,,Pregnancy Positive/Negative/Indeterminate-CDISC,,,,,,,Confirmable,,No,No,No,,,,,,1
+LB_PREG - Pregnancy Test,LBPERF_PREG,1,LBPERF_PREG,List of values,1,Was a pregnancy test performed?,,Yes/No-CDISC,,,,,,,Required,,No,No,No,,,,,,1
+LB_PREG - Pregnancy Test,LBREASND_PREG,1,LBREASND_PREG,Text memo,2,Reason test not done,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+LB_PREG - Pregnancy Test,LBSCAT_PREG,1,LBSCAT_PREG,List of values,5,Sample type,,Pregnancy Test Sub-Categories,,,,,,,Confirmable,,No,No,No,,,,,,1
+LB_PREG - Pregnancy Test,LBTIM_PREG,1,LBTIM_PREG,Time,4,Sample collection time,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+PR - Procedures / Surgeries,ICDAT,1,ICDAT,Date,5,Main Study Consent Date (from DS_IC),,,,,,,,,Optional,,No,Yes,Yes,,,,,,1
+PR - Procedures / Surgeries,LCDAT,1,LCDAT,Date,6,Date of Last Contact (from DS_COMP),,,,,,,,,Optional,,No,Yes,Yes,,,,,,1
+PR - Procedures / Surgeries,PRCVOUT,1,PRCVOUT,Drop-down list,-1,Cardioversion outcome:,,PR - Cardioversion Outcomes,,,,,,,Confirmable,,No,No,No,,Table7,,3,1,1
+PR - Procedures / Surgeries,PRCVTYP,1,PRCVTYP,Drop-down list,-1,Cardioversion type:,,PR - Cardioversion Types,,,,,,,Confirmable,,No,No,No,,Table7,,2,1,1
+PR - Procedures / Surgeries,PRCVYN,1,PRCVYN,Drop-down list,-1,Is it a cardioversion?,,Yes/No-CDISC,,,,,,,Confirmable,,No,No,No,,Table7,,1,1,1
+PR - Procedures / Surgeries,PRDAT,1,PRDAT,Date,-1,Date Performed,,,,,,,,,Confirmable,,No,No,No,,Table6,,1,1,1
+PR - Procedures / Surgeries,PRINDC,1,PRINDC,Text,-1,Indication Term,,,,,,,,,Confirmable,,No,No,No,,Table4,,1,1,1
+PR - Procedures / Surgeries,PRINDC_CAT,1,PRINDC_CAT,Drop-down list,-1,Indication Category,,CM & PR - Indication Categories,,,,,,,Confirmable,,No,No,No,,Table5,,1,1,1
+PR - Procedures / Surgeries,PRTRT,1,PRTRT,Text,-1,Procedure / Surgery Name,,,,,,,,,Required,,No,No,No,,Table1,,1,1,1
+PR - Procedures / Surgeries,Table1,1,,Table of items,0,Procedure / Surgery Name,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+PR - Procedures / Surgeries,Table4,1,,Table of items,3,Indication Term,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+PR - Procedures / Surgeries,Table5,1,,Table of items,2,Indication Category,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+PR - Procedures / Surgeries,Table6,1,,Table of items,1,Date Performed,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+PR - Procedures / Surgeries,Table7,1,,Table of items,4,Cardioversion Details,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+PR_SUM - Concomitant Procedures,Head1,1,,Header title,0,Concomitant Procedures,,,,,,,,,,,No,No,Yes,,,,,,1
+PR_SUM - Concomitant Procedures,PRLOG,1,PRLOG,Sub-Form,2,,,,,,,,,,Required,,No,No,No,,,PR,,,1
+PR_SUM - Concomitant Procedures,PRYN,1,PRYN,List of values,1,Are there any concomitant procedures or surgeries to report for this patient?,,Yes/No-CDISC,,,,,,,Required,,No,No,No,,,,,,1
+SV - Study Visit,Head1,1,,Header title,0,Study Visit,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+SV - Study Visit,SVDAT,1,SVDAT,Date,5,Date of Visit,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+SV - Study Visit,SVNA1,1,SVNA1,Boolean,-1,Visit NRQ - Sub-study visit performed at this time point instead.,,,,,,,,,Optional,,No,No,No,,Table1,,1,1,1
+SV - Study Visit,SVNA2,1,SVNA2,Boolean,-1,Visit NRQ - Patient consented to the sub-study but is not participating due to Investigator discretion.,,,,,,,,,Optional,,No,No,No,,Table2,,1,1,1
+SV - Study Visit,SVOCCUR,1,SVOCCUR,List of values,3,Was the visit performed?,,Yes/No-CDISC,,,,,,,Required,,No,No,No,,,,,,1
+SV - Study Visit,SVREASOC,1,SVREASOC,Text memo,4,Reason visit not performed,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+SV - Study Visit,Table1,1,,Table of items,1,,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+SV - Study Visit,Table2,1,,Table of items,2,,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+SV_UNS - Study Visit,CDDAT,1,CDDAT,Date,7,Completion / Discontinuation Date (from DS_COMP),,,,,,,,,Optional,,No,Yes,Yes,,,,,,1
+SV_UNS - Study Visit,Head1,1,,Header title,0,Study Visit,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+SV_UNS - Study Visit,ICDAT,1,ICDAT,Date,6,Date of Consent (from DS_IC),,,,,,,,,Optional,,No,Yes,Yes,,,,,,1
+SV_UNS - Study Visit,SVDAT,1,SVDAT,Date,2,Date of Visit,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+SV_UNS - Study Visit,SVOCCUR,1,SVOCCUR,List of values,1,Was the visit performed?,,Yes/No-CDISC,,,,,,,Required,,No,No,No,,,,,,1
+SV_UNS - Study Visit,SVTEST_DSICRE,1,SVTEST_DSICRE,Boolean,-1,Reconsent,,,,,,,,,Optional,,No,No,No,,Table2,,1,1,1
+SV_UNS - Study Visit,SVTEST_EG,1,SVTEST_EG,Boolean,-1,Electrocardiogram,,,,,,,,,Optional,,No,No,No,,Table2,,4,1,1
+SV_UNS - Study Visit,SVTEST_LBCOAG,1,SVTEST_LBCOAG,Boolean,-1,Clinical Laboratory Test,,,,,,,,,Optional,,No,No,No,,Table2,,12,1,1
+SV_UNS - Study Visit,SVTEST_LBPREG,1,SVTEST_LBPREG,Boolean,-1,Pregnancy Test,,,,,,,,,Optional,,No,No,No,,Table2,,3,1,1
+SV_UNS - Study Visit,SVTEST_OTH,1,SVTEST_OTH,Boolean,-1,Other,,,,,,,,,Optional,,No,No,No,,Table2,,15,1,1
+SV_UNS - Study Visit,SVTEST_OTH_DESC,1,SVTEST_OTH_DESC,Text memo,5,"Description of 'Other' assessments not possible to be captured on above forms (include the date and time of the assessment / sample collection and the outcome / result, if applicable)",,,,,,,,,Confirmable,,No,No,No,,,,,,1
+SV_UNS - Study Visit,SVTEST_PENEURO,1,SVTEST_PENEURO,Boolean,-1,Neurological Examination,,,,,,,,,Optional,,No,No,No,,Table2,,14,1,1
+SV_UNS - Study Visit,SVTEST_VSHTWT,1,SVTEST_VSHTWT,Boolean,-1,"Height, Weight and BMI",,,,,,,,,Optional,,No,No,No,,Table2,,2,1,1
+SV_UNS - Study Visit,SVUPDES,1,SVUPDES,Text memo,3,Reason for Unscheduled Visit / Assessment,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+SV_UNS - Study Visit,Table2,1,,Table of items,4,Check all assessments that were performed as part of this unscheduled visit,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+"VS_HTWT - Height, Weight & BMI",Head1,1,,Header title,0,"Height, Weight and BMI",,,,,,,,,Optional,,No,No,Yes,,,,,,1
+"VS_HTWT - Height, Weight & BMI",Table1,1,,Table of items,5,,,,,,,,,,Optional,,No,No,Yes,,,,,,1
+"VS_HTWT - Height, Weight & BMI",VSDAT_HTWT,1,VSDAT_HTWT,Date,2,Date of measurement,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+"VS_HTWT - Height, Weight & BMI",VSORRES_BMI,1,VSORRES_BMI,Real,-1,BMI,kg/m2,,,,,,4,1,Optional,,No,No,No,,Table1,,3,1,1
+"VS_HTWT - Height, Weight & BMI",VSORRES_HEIGHT,1,VSORRES_HEIGHT,Real,-1,Height,metres,,,,0,3,4,2,Confirmable,,No,No,No,,Table1,,1,1,1
+"VS_HTWT - Height, Weight & BMI",VSORRES_WEIGHT,1,VSORRES_WEIGHT,Real,-1,Weight,kilograms,,,,0,500,5,1,Confirmable,,No,No,No,,Table1,,2,1,1
+"VS_HTWT - Height, Weight & BMI",VSPERF_HTWT,1,VSPERF_HTWT,List of values,1,Were height and weight measurements performed for BMI calculation?,,Yes/No-CDISC,,,,,,,Required,,No,No,No,,,,,,1
+"VS_HTWT - Height, Weight & BMI",VSREASND_HTWT,1,VSREASND_HTWT,Text memo,4,Reason height and weight not measured,,,,,,,,,Confirmable,,No,No,No,,,,,,1
+"VS_HTWT - Height, Weight & BMI",VSTIM_HTWT,1,VSTIM_HTWT,Time,3,Time of measurement,,,,,,,,,Confirmable,,No,No,No,,,,,,1

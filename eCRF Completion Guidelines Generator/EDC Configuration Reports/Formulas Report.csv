@@ -1,0 +1,22 @@
+Range (Ascending),Execution Order,Syntax,Code,Default value,Item : Visit ID,Item : Form Code,Item : Item Code,Item caption and stat code,Count Number
+Inter,1,"GETYEARS([1|0|DM|0|BRTHDAT], [0|0|DS_IC|0|DSSTDAT1_IC])",IFF01,No,All / None,DM - Demographics,AGE,AGE - Age (at time of consent),1
+Inter,2,[12|0|DS_COMP|0|DSSTDAT_COMP],IFF02,No,All / None,AE - Adverse Events,CDDAT,CDDAT - Completion / Discontinuation Date (from DS_COMP),1
+Inter,3,[12|0|DS_COMP|0|DSDECOD_COMP],IFF03,No,All / None,AE - Adverse Events,CDSTAT,CDSTAT - Patient's Completion / Discontinuation Status (from DS_COMP),1
+Inter,4,[0|0|DS_IC|0|DSSTDAT1_IC],IFF04,No,All / None,AE - Adverse Events,ICDAT,ICDAT - Date of Consent (from DS_IC),1
+Inter,5,[12|0|DS_COMP|0|DSLCDAT_COMP],IFF05,No,All / None,AE - Adverse Events,LCDAT,LCDAT - Date of Last Contact (from DS_COMP),1
+Inter,6,[1|0|DM|0|BRTHDAT],IFF06,No,All / None,CM_SUM - Prior & Concomitant Medications,CMLOG,CMLOG - ,1
+Inter,7,[12|0|DS_COMP|0|DSLCDAT_COMP],IFF07,No,All / None,CM_SUM - Prior & Concomitant Medications,CMLOG,CMLOG - ,1
+Inter,9,[0|0|DS_IC|0|DSSTDAT1_IC],IFF09,No,All / None,DS_IC_RE - Reconsent,ICDAT,ICDAT - Date of Consent (from DS_IC),1
+Inter,15,[0|0|DS_IC|0|DSSTDAT1_IC],IFF15,No,All / None,PR_SUM - Concomitant Procedures,PRLOG,PRLOG - ,1
+Inter,16,[12|0|DS_COMP|0|DSLCDAT_COMP],IFF16,No,All / None,PR_SUM - Concomitant Procedures,PRLOG,PRLOG - ,1
+Inter,17,[12|0|DS_COMP|0|DSSTDAT_COMP],IFF17,No,All / None,SV_UNS - Study Visit,CDDAT,CDDAT - Completion / Discontinuation Date (from DS_COMP),1
+Inter,18,[0|0|DS_IC|0|DSSTDAT1_IC],IFF18,No,All / None,SV_UNS - Study Visit,ICDAT,ICDAT - Date of Consent (from DS_IC),1
+Inter,19,[12|0|DS_COMP|0|DSLCDAT_COMP],IFF19,No,All / None,CE_SYM_SUM - Arrhythmia Symptom Recurrence,CESYMLOG,CESYMLOG - ,1
+Inter,20,[2|0|DX|0|DXDAT],IFF20,No,All / None,CE_SYM_SUM - Arrhythmia Symptom Recurrence,CESYMLOG,CESYMLOG - ,1
+Inter,21,[2|0|DX|0|DXDAT],IFF21,No,All / None,AE - Adverse Events,DXDAT,DXDAT - Procedure Date (from DX),1
+Inter,22,[2|0|DX|0|DXSTTIM],IFF22,No,All / None,AE - Adverse Events,DXTIM,DXTIM - Procedure Start Time (from DX),1
+Intra,1,[SYS_FORM_OCC],AE_L_F01,No,All / None,AE - Adverse Events,AESPID,AESPID - Adverse Event Number,1
+Intra,1,[SYS_FORM_OCC],DV_L_F01,No,All / None,DV - Protocol Deviations,DVSPID,DVSPID - Protocol Deviation Number,1
+Intra,1,"BMI_METRIC([VSORRES_WEIGHT], [VSORRES_HEIGHT])",HTWT_L_F01,No,All / None,"VS_HTWT - Height, Weight & BMI",VSORRES_BMI,VSORRES_BMI - BMI,1
+Intra,1,"ISDATEVALID(('[CMSTDAT_d]'=='UN'?'1':'[CMSTDAT_d]')+'/'+('[CMSTDAT_m]'=='UNK'?'1':'[CMSTDAT_m]')+'/'+('[CMSTDAT_y]'=='UKUK'?'1900':'[CMSTDAT_y]'),'d/M/y') ? getDateFromFormat(('[CMSTDAT_d]'=='UN'?'1':'[CMSTDAT_d]')+'/'+('[CMSTDAT_m]'=='UNK'?'1':'[CMSTDAT_m]')+'/'+('[CMSTDAT_y]'=='UKUK'?'1900':'[CMSTDAT_y]'),'d/M/y') : ''",CM_L_F01,No,All / None,CM - Medications,CMSTDAT,CMSTDAT - Start Date,1
+Intra,2,"ISDATEVALID(('[CMENDAT_d]'=='UN'?'1':'[CMENDAT_d]')+'/'+('[CMENDAT_m]'=='UNK'?'1':'[CMENDAT_m]')+'/'+('[CMENDAT_y]'=='UKUK'?'1900':'[CMENDAT_y]'),'d/M/y') ? getDateFromFormat(('[CMENDAT_d]'=='UN'?'1':'[CMENDAT_d]')+'/'+('[CMENDAT_m]'=='UNK'?'1':'[CMENDAT_m]')+'/'+('[CMENDAT_y]'=='UKUK'?'1900':'[CMENDAT_y]'),'d/M/y') : ''",CM_L_F02,No,All / None,CM - Medications,CMENDAT,CMENDAT - End Date,1

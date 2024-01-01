@@ -1,0 +1,39 @@
+Visit ID,Visit name,Form code,Form Title
+0,Inclusion,DS_IC,Informed Consent
+1,Screening,SV,Study Visit
+,,DM,Demographics
+,,VS_HTWT,"Height, Weight & BMI"
+,,EG,Electrocardiogram
+,,IE_SUM,Eligibility Review
+2,Day 1 - Procedure,SV,Study Visit
+,,LB_PREG,Pregnancy Test
+3,Day 2 - Discharge,SV,Study Visit
+,,EG,Electrocardiogram
+4,Day 14 - Follow-Up,SV,Study Visit
+,,EG,Electrocardiogram
+5,Day 90 - Follow-Up,SV,Study Visit
+,,EG,Electrocardiogram
+6,Day 120 - Sub-Study Procedure,SV,Study Visit
+,,LB_PREG,Pregnancy Test
+,,EG,Electrocardiogram
+7,Day 121 - Sub-Study Discharge,SV,Study Visit
+,,EG,Electrocardiogram
+8,Day 134 - Sub-Study Follow-Up,SV,Study Visit
+,,EG,Electrocardiogram
+9,Day 180 - Follow-Up,SV,Study Visit
+,,EG,Electrocardiogram
+10,Day 230 - Follow-Up,SV,Study Visit
+,,EG,Electrocardiogram
+11,Day 300 - Follow-Up,SV,Study Visit
+,,EG,Electrocardiogram
+12,Common Forms,AE,Adverse Events
+,,CE_SYM_SUM,Arrhythmia Symptom Recurrence
+,,CM_SUM,Prior & Concomitant Medications
+,,PR_SUM,Concomitant Procedures
+,,DV,Protocol Deviations
+,,DS_COMP,Study Completion / Discontinuation
+13,Unscheduled Visit,SV_UNS,Study Visit
+,,DS_IC_RE,Reconsent
+,,VS_HTWT,"Height, Weight & BMI"
+,,LB_PREG,Pregnancy Test
+,,EG,Electrocardiogram

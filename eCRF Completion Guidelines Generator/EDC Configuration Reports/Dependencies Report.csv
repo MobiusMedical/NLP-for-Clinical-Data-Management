@@ -1,0 +1,146 @@
+Range (Ascending),Type,Execution Order,Syntax,Code,Item : Visit ID,Item : Form Code,Item : Item Code,Item caption and stat code,Count Number
+Inter,Visible,1,1==2,IFD01,All / None,SV - Study Visit,SVNA1,SVNA1 - Visit NRQ - Sub-study visit performed at this time point instead.,1
+Inter,Visible,1,1==2,IFD01,All / None,SV - Study Visit,Table1,*Null value*,1
+Inter,Visible,2,1==2,IFD02,All / None,SV - Study Visit,SVNA2,SVNA2 - Visit NRQ - Patient consented to the sub-study but is not participating due to Investigator discretion.,1
+Inter,Visible,2,1==2,IFD02,All / None,SV - Study Visit,Table2,*Null value*,1
+Inter,Visible,3,"""[0|0|DS_IC|0|DSPERF2_IC]""==""Y""",IFD03,All / None,SV - Study Visit,SVNA1,SVNA1 - Visit NRQ - Sub-study visit performed at this time point instead.,1
+Inter,Visible,3,"""[0|0|DS_IC|0|DSPERF2_IC]""==""Y""",IFD03,All / None,SV - Study Visit,Table1,*Null value*,1
+Intra,Visible,1,"""[AEYN]""==""Y""",AE_L_D01,All / None,AE - Adverse Events,AEACNOTH,Action Taken in response to the AE (multiple items can be selected if 'None' is blank),1
+Intra,Visible,1,"""[AEYN]""==""Y""",AE_L_D01,All / None,AE - Adverse Events,AEACNOTH_NONE,AEACNOTH_NONE - None (no action required),1
+Intra,Visible,1,"""[AEYN]""==""Y""",AE_L_D01,All / None,AE - Adverse Events,AEAWDAT,AEAWDAT - Date of Site Awareness,1
+Intra,Visible,1,"""[AEYN]""==""Y""",AE_L_D01,All / None,AE - Adverse Events,AEDIS,AEDIS - Caused Study Discontinuation?,1
+Intra,Visible,1,"""[AEYN]""==""Y""",AE_L_D01,All / None,AE - Adverse Events,AENARR,AENARR - Adverse Event Narrative (optional),1
+Intra,Visible,1,"""[AEYN]""==""Y""",AE_L_D01,All / None,AE - Adverse Events,AEONGO,AEONGO - Is the adverse event ongoing?,1
+Intra,Visible,1,"""[AEYN]""==""Y""",AE_L_D01,All / None,AE - Adverse Events,AEOUT,AEOUT - AE Outcome,1
+Intra,Visible,1,"""[AEYN]""==""Y""",AE_L_D01,All / None,AE - Adverse Events,AEREL_DEV,AEREL_DEV - Relationship of the AE to the device,1
+Intra,Visible,1,"""[AEYN]""==""Y""",AE_L_D01,All / None,AE - Adverse Events,AEREL_PRO,AEREL_PRO - Relationship of the AE to the device procedures,1
+Intra,Visible,1,"""[AEYN]""==""Y""",AE_L_D01,All / None,AE - Adverse Events,AESER,AESER - Is the Adverse Event serious?,1
+Intra,Visible,1,"""[AEYN]""==""Y""",AE_L_D01,All / None,AE - Adverse Events,AESEV,AESEV - What is the severity of the Adverse Event?,1
+Intra,Visible,1,"""[AEYN]""==""Y""",AE_L_D01,All / None,AE - Adverse Events,AESPID,AESPID - Adverse Event Number,1
+Intra,Visible,1,"""[AEYN]""==""Y""",AE_L_D01,All / None,AE - Adverse Events,AESTDAT,AESTDAT - Onset Date,1
+Intra,Visible,1,"""[AEYN]""==""Y""",AE_L_D01,All / None,AE - Adverse Events,AESTTIM_YN,AESTTIM_YN - Onset Time Known?,1
+Intra,Visible,1,"""[AEYN]""==""Y""",AE_L_D01,All / None,AE - Adverse Events,AETERM,AETERM - Adverse Event Term,1
+Intra,Visible,1,"""[CEYN]""==""Y""",SYMSUM_L_D01,All / None,CE_SYM_SUM - Arrhythmia Symptom Recurrence,CESYMLOG,CESYMLOG - ,1
+Intra,Visible,1,"""[CMDOSU]""==""OTHER""",CM_L_D01,All / None,CM - Medications,CMDOSU_OTH,CMDOSU_OTH - Specify other unit,1
+Intra,Visible,1,"""[CMYN]""==""Y""",CMSUM_L_D01,All / None,CM_SUM - Prior & Concomitant Medications,CMLOG,CMLOG - ,1
+Intra,Visible,1,"""[DSDECOD_COMP]""==""WITHDRAWAL_OF_CONSENT""",COMP_L_D01,All / None,DS_COMP - Study Completion / Discontinuation,DSTERMCW_COMP,DSTERMCW_COMP - Reason for Consent Withdrawal,1
+Intra,Visible,1,"""[DSDECOD_COMP]""==""WITHDRAWAL_OF_CONSENT""",COMP_L_D01,All / None,DS_COMP - Study Completion / Discontinuation,DSTERMCWD_COMP,DSTERMCWD_COMP - Date Consent Withdrawn,1
+Intra,Visible,1,"""[DSPERF_ICRE]""==""Y""",ICRE_L_D01,All / None,DS_IC_RE - Reconsent,DSSTDAT_ICRE,DSSTDAT_ICRE - Date Patient Signed Consent,1
+Intra,Visible,1,"""[DSPERF_ICRE]""==""Y""",ICRE_L_D01,All / None,DS_IC_RE - Reconsent,DSTYPE_ICRE,DSTYPE_ICRE - Consent Type,1
+Intra,Visible,1,"""[DSPERF_ICRE]""==""Y""",ICRE_L_D01,All / None,DS_IC_RE - Reconsent,Table1,*Null value*,1
+Intra,Visible,1,"""[DSPERF1_IC]""==""Y""",IC_L_D01,All / None,DS_IC - Informed Consent,DSPERF2_IC,DSPERF2_IC - Did the patient consent to the Sub-Study?,1
+Intra,Visible,1,"""[DSPERF1_IC]""==""Y""",IC_L_D01,All / None,DS_IC - Informed Consent,DSPRV1_IC,DSPRV1_IC - Protocol Version at Time of Main Study Consent,1
+Intra,Visible,1,"""[DSPERF1_IC]""==""Y""",IC_L_D01,All / None,DS_IC - Informed Consent,DSSTDAT1_IC,DSSTDAT1_IC - Date Patient Signed Main Study Consent,1
+Intra,Visible,1,"""[DVYN]""==""Y""",DV_L_D01,All / None,DV - Protocol Deviations,DVASSESS,DVASSESS - Related Assessment,1
+Intra,Visible,1,"""[DVYN]""==""Y""",DV_L_D01,All / None,DV - Protocol Deviations,DVDECOD,DVDECOD - Deviation Category,1
+Intra,Visible,1,"""[DVYN]""==""Y""",DV_L_D01,All / None,DV - Protocol Deviations,DVDESC,"DVDESC - Detailed Deviation Narrative (include details relating to the source of the deviation,
+its impact on the study, and the immediate action taken)",1
+Intra,Visible,1,"""[DVYN]""==""Y""",DV_L_D01,All / None,DV - Protocol Deviations,DVOUTC,DVOUTC - Outcome / Corrective Action,1
+Intra,Visible,1,"""[DVYN]""==""Y""",DV_L_D01,All / None,DV - Protocol Deviations,DVPTSAFE,DVPTSAFE - Was patient safety compromised?,1
+Intra,Visible,1,"""[DVYN]""==""Y""",DV_L_D01,All / None,DV - Protocol Deviations,DVSPID,DVSPID - Protocol Deviation Number,1
+Intra,Visible,1,"""[DVYN]""==""Y""",DV_L_D01,All / None,DV - Protocol Deviations,DVSTDAT,DVSTDAT - Date of Deviation,1
+Intra,Visible,1,"""[DVYN]""==""Y""",DV_L_D01,All / None,DV - Protocol Deviations,DVTERM,DVTERM - Short Deviation Summary,1
+Intra,Visible,1,"""[DVYN]""==""Y""",DV_L_D01,All / None,DV - Protocol Deviations,DVVISIT,DVVISIT - Related Visit,1
+Intra,Visible,1,"""[DVYN]""==""Y""",DV_L_D01,All / None,DV - Protocol Deviations,tHRECN,*Null value*,1
+Intra,Visible,1,"""[DVYN]""==""Y""",DV_L_D01,All / None,DV - Protocol Deviations,tSN,*Null value*,1
+Intra,Visible,1,"""[EGPERF]""==""Y""",EG_L_D01,All / None,EG - Electrocardiogram,EGASSESS,EGASSESS - Overall assessment of the ECG,1
+Intra,Visible,1,"""[EGPERF]""==""Y""",EG_L_D01,All / None,EG - Electrocardiogram,EGDAT,EGDAT - Date Performed,1
+Intra,Visible,1,"""[EGPERF]""==""Y""",EG_L_D01,All / None,EG - Electrocardiogram,EGORRES_HR,EGORRES_HR - Heart Rate,1
+Intra,Visible,1,"""[EGPERF]""==""Y""",EG_L_D01,All / None,EG - Electrocardiogram,EGORRES_PR,EGORRES_PR - PR Interval,1
+Intra,Visible,1,"""[EGPERF]""==""Y""",EG_L_D01,All / None,EG - Electrocardiogram,EGORRES_QRS,EGORRES_QRS - QRS Duration,1
+Intra,Visible,1,"""[EGPERF]""==""Y""",EG_L_D01,All / None,EG - Electrocardiogram,EGORRES_QT,EGORRES_QT - QT Interval,1
+Intra,Visible,1,"""[EGPERF]""==""Y""",EG_L_D01,All / None,EG - Electrocardiogram,EGORRES_QTCF,EGORRES_QTCF - QTcF Interval,1
+Intra,Visible,1,"""[EGPERF]""==""Y""",EG_L_D01,All / None,EG - Electrocardiogram,EGOTHFIND,EGOTHFIND - Were there any other notable ECG findings?,1
+Intra,Visible,1,"""[EGPERF]""==""Y""",EG_L_D01,All / None,EG - Electrocardiogram,EGTIM,EGTIM - Time ECG Taken,1
+Intra,Visible,1,"""[EGPERF]""==""Y""",EG_L_D01,All / None,EG - Electrocardiogram,Head2,Result,1
+Intra,Visible,1,"""[EGPERF]""==""Y""",EG_L_D01,All / None,EG - Electrocardiogram,Head3,Assessment,1
+Intra,Visible,1,"""[EGPERF]""==""Y""",EG_L_D01,All / None,EG - Electrocardiogram,Head4,Other Notable Findings,1
+Intra,Visible,1,"""[IEPERF]""==""Y""",IESUM_L_D01,All / None,IE_SUM - Eligibility Review,IEDAT,IEDAT - Date of Review,1
+Intra,Visible,1,"""[IEPERF]""==""Y""",IESUM_L_D01,All / None,IE_SUM - Eligibility Review,IEYN,IEYN - Was the patient eligible for the study?,1
+Intra,Visible,1,"""[LBPERF_PREG]""==""Y""",PREG_L_D01,All / None,LB_PREG - Pregnancy Test,LBDAT_PREG,LBDAT_PREG - Sample collection date,1
+Intra,Visible,1,"""[LBPERF_PREG]""==""Y""",PREG_L_D01,All / None,LB_PREG - Pregnancy Test,LBORRES_PREG,LBORRES_PREG - Result,1
+Intra,Visible,1,"""[LBPERF_PREG]""==""Y""",PREG_L_D01,All / None,LB_PREG - Pregnancy Test,LBSCAT_PREG,LBSCAT_PREG - Sample type,1
+Intra,Visible,1,"""[LBPERF_PREG]""==""Y""",PREG_L_D01,All / None,LB_PREG - Pregnancy Test,LBTIM_PREG,LBTIM_PREG - Sample collection time,1
+Intra,Visible,1,"""[PRCVYN]""==""Y""",PR_L_D01,All / None,PR - Procedures / Surgeries,PRCVOUT,PRCVOUT - Cardioversion outcome:,1
+Intra,Visible,1,"""[PRCVYN]""==""Y""",PR_L_D01,All / None,PR - Procedures / Surgeries,PRCVTYP,PRCVTYP - Cardioversion type:,1
+Intra,Visible,1,"""[PRYN]""==""Y""",PRSUM_L_D01,All / None,PR_SUM - Concomitant Procedures,PRLOG,PRLOG - ,1
+Intra,Visible,1,"""[SEX]""==""F""",DM_L_D01,All / None,DM - Demographics,DMCBP,DMCBP - Is the patient of child-bearing potential?,1
+Intra,Visible,1,"""[SVOCCUR]""==""Y""",SVUNS_L_D01,All / None,SV_UNS - Study Visit,SVDAT,SVDAT - Date of Visit,1
+Intra,Visible,1,"""[SVOCCUR]""==""Y""",SVUNS_L_D01,All / None,SV_UNS - Study Visit,SVUPDES,SVUPDES - Reason for Unscheduled Visit / Assessment,1
+Intra,Visible,1,"""[SVOCCUR]""==""Y""",SVUNS_L_D01,All / None,SV_UNS - Study Visit,Table2,Check all assessments that were performed as part of this unscheduled visit,1
+Intra,Visible,1,"""[VSPERF_HTWT]""==""Y""",HTWT_L_D01,All / None,"VS_HTWT - Height, Weight & BMI",Table1,*Null value*,1
+Intra,Visible,1,"""[VSPERF_HTWT]""==""Y""",HTWT_L_D01,All / None,"VS_HTWT - Height, Weight & BMI",VSDAT_HTWT,VSDAT_HTWT - Date of measurement,1
+Intra,Visible,1,"""[VSPERF_HTWT]""==""Y""",HTWT_L_D01,All / None,"VS_HTWT - Height, Weight & BMI",VSTIM_HTWT,VSTIM_HTWT - Time of measurement,1
+Intra,Visible,1,[!CEACNOTH_NONE],SYM_L_D01,All / None,CE_SYM - Symptoms,CEACNOTH_DRUG,CEACNOTH_DRUG - Medication,1
+Intra,Visible,1,[!CEACNOTH_NONE],SYM_L_D01,All / None,CE_SYM - Symptoms,CEACNOTH_OTH,CEACNOTH_OTH - Other,1
+Intra,Visible,1,[!CEACNOTH_NONE],SYM_L_D01,All / None,CE_SYM - Symptoms,CEACNOTH_PROC,CEACNOTH_PROC - Procedure,1
+Intra,Visible,1,[!CEACNOTH_NONE],SYM_L_D01,All / None,CE_SYM - Symptoms,CEACNOTH_TEST,CEACNOTH_TEST - Test / Assessment,1
+Intra,Visible,1,[!SVNA1] && [!SVNA2],SV_L_D01,All / None,SV - Study Visit,SVOCCUR,SVOCCUR - Was the visit performed?,1
+Intra,Visible,2,"""[AESTTIM_YN]""==""Y""",AE_L_D02,All / None,AE - Adverse Events,AESTTIM,AESTTIM - Onset Time,1
+Intra,Visible,2,"""[CMDOSFRM]""==""OTHER""",CM_L_D02,All / None,CM - Medications,CMDOSFRM_OTH,CMDOSFRM_OTH - Specify other dose form,1
+Intra,Visible,2,"""[DMCBP]""==""Y""",DM_L_D02,All / None,DM - Demographics,DMCBP_CONT,DMCBP_CONT - Contraception method(s) used by this patient,1
+Intra,Visible,2,"""[DMCBP]""==""Y""",DM_L_D02,All / None,DM - Demographics,Head3,Ensure a pregnancy test is performed before the procedure,1
+Intra,Visible,2,"""[DSDECOD_COMP]""==""ADVERSE_EVENT""",COMP_L_D02,All / None,DS_COMP - Study Completion / Discontinuation,DSTERMAE_COMP,DSTERMAE_COMP - Adverse Event Number and Term that caused Withdrawal,1
+Intra,Visible,2,"""[DSPERF1_IC]""==""N""",IC_L_D02,All / None,DS_IC - Informed Consent,Head2,Assessments relating to the main study should NOT be performed on this patient,1
+Intra,Visible,2,"""[DSPRV_ICRE]""==""OTHER""",ICRE_L_D02,All / None,DS_IC_RE - Reconsent,DSPRDTOTH_ICRE,DSPRDTOTH_ICRE - Date,1
+Intra,Visible,2,"""[DSPRV_ICRE]""==""OTHER""",ICRE_L_D02,All / None,DS_IC_RE - Reconsent,DSPRVOTH_ICRE,DSPRVOTH_ICRE - Other Version,1
+Intra,Visible,2,"""[DVDECOD]""==""OTHER""",DV_L_D02,All / None,DV - Protocol Deviations,DVDECOD_OTH,DVDECOD_OTH - Specify Other Category,1
+Intra,Visible,2,"""[EGPERF]""==""N""",EG_L_D02,All / None,EG - Electrocardiogram,EGREASND,EGREASND - Reason ECG not performed,1
+Intra,Visible,2,"""[IEPERF]""==""N""",IESUM_L_D02,All / None,IE_SUM - Eligibility Review,IEREASND,IEREASND - Reason eligibility review not performed,1
+Intra,Visible,2,"""[LBPERF_PREG]""==""N""",PREG_L_D02,All / None,LB_PREG - Pregnancy Test,LBREASND_PREG,LBREASND_PREG - Reason test not done,1
+Intra,Visible,2,"""[SVOCCUR]""==""Y""",SV_L_D02,All / None,SV - Study Visit,SVDAT,SVDAT - Date of Visit,1
+Intra,Visible,2,"""[VSPERF_HTWT]""==""N""",HTWT_L_D02,All / None,"VS_HTWT - Height, Weight & BMI",VSREASND_HTWT,VSREASND_HTWT - Reason height and weight not measured,1
+Intra,Visible,2,[@CEACNOTH_OTH],SYM_L_D02,All / None,CE_SYM - Symptoms,CEACNOTH_OTHSPEC,CEACNOTH_OTHSPEC - Specify other action(s) taken,1
+Intra,Visible,2,[@SVTEST_OTH],SVUNS_L_D02,All / None,SV_UNS - Study Visit,SVTEST_OTH_DESC,"SVTEST_OTH_DESC - Description of 'Other' assessments not possible to be captured on above forms (include the date and time of the assessment / sample collection and the outcome / result, if applicable)",1
+Intra,Visible,3,"""[AESER]""==""Y""",AE_L_D03,All / None,AE - Adverse Events,AESCONG,AESCONG - Was the adverse event associated with a congenital anomaly or birth defect?,1
+Intra,Visible,3,"""[AESER]""==""Y""",AE_L_D03,All / None,AE - Adverse Events,AESDISAB,AESDISAB - Did the adverse event result in disability or permanent damage?,1
+Intra,Visible,3,"""[AESER]""==""Y""",AE_L_D03,All / None,AE - Adverse Events,AESDTH,AESDTH - Did the adverse event result in death?,1
+Intra,Visible,3,"""[AESER]""==""Y""",AE_L_D03,All / None,AE - Adverse Events,AESHOSP,AESHOSP - Did the adverse event result in initial or prolonged hospitalization for the subject?,1
+Intra,Visible,3,"""[AESER]""==""Y""",AE_L_D03,All / None,AE - Adverse Events,AESLIFE,AESLIFE - Was the adverse event life-threatening?,1
+Intra,Visible,3,"""[AESER]""==""Y""",AE_L_D03,All / None,AE - Adverse Events,AESMIE,AESMIE - Was the adverse event a medically important event not covered by other serious criteria?,1
+Intra,Visible,3,"""[AESER]""==""Y""",AE_L_D03,All / None,AE - Adverse Events,AESNOTYN,AESNOTYN - Has Sponsor been notified of the SAE?,1
+Intra,Visible,3,"""[AESER]""==""Y""",AE_L_D03,All / None,AE - Adverse Events,Head2,SAE Details,1
+Intra,Visible,3,"""[AESER]""==""Y""",AE_L_D03,All / None,AE - Adverse Events,Head3,Seriousness Criteria,1
+Intra,Visible,3,"""[CECAT]""==""OTHER""",SYM_L_D03,All / None,CE_SYM - Symptoms,CECAT_OTH,CECAT_OTH - Specify other,1
+Intra,Visible,3,"""[CMDOSFRQ]""==""OTHER""",CM_L_D03,All / None,CM - Medications,CMDOSFRQ_OTH,CMDOSFRQ_OTH - Specify other frequency,1
+Intra,Visible,3,"""[DMCBP]""==""N""",DM_L_D03,All / None,DM - Demographics,DMNCBP_REAS,"DMNCBP_REAS - Reason for non-child-bearing potential (e.g. postmenopausal, surgically sterile etc.)",1
+Intra,Visible,3,"""[DSDECOD_COMP]""==""PROTOCOL_DEVIATION""",COMP_L_D03,All / None,DS_COMP - Study Completion / Discontinuation,DSTERMPD_COMP,DSTERMPD_COMP - Protocol Deviation Number that caused Withdrawal,1
+Intra,Visible,3,"""[DSPRV1_IC]""==""OTHER""",IC_L_D03,All / None,DS_IC - Informed Consent,DSPRDTOTH1_IC,DSPRDTOTH1_IC - Date,1
+Intra,Visible,3,"""[DSPRV1_IC]""==""OTHER""",IC_L_D03,All / None,DS_IC - Informed Consent,DSPRVOTH1_IC,DSPRVOTH1_IC - Other Version,1
+Intra,Visible,3,"""[DVSPNOT]""==""Y""",DV_L_D03,All / None,DV - Protocol Deviations,DVSPNOTDAT,DVSPNOTDAT - Sponsor Notification Date,1
+Intra,Visible,3,"""[EGOTHFIND]""==""Y""",EG_L_D03,All / None,EG - Electrocardiogram,EGFINDLIST,EGFINDLIST - List other notable ECG findings,1
+Intra,Visible,3,"""[IEYN]""==""N""",IESUM_L_D03,All / None,IE_SUM - Eligibility Review,Eligibility,Eligibility - ,1
+Intra,Visible,3,"""[SVOCCUR]""==""N""",SV_L_D03,All / None,SV - Study Visit,SVREASOC,SVREASOC - Reason visit not performed,1
+Intra,Visible,4,"""[AEONGO]""==""N""",AE_L_D04,All / None,AE - Adverse Events,AEENDAT,AEENDAT - Resolution Date,1
+Intra,Visible,4,"""[AEONGO]""==""N""",AE_L_D04,All / None,AE - Adverse Events,AEENTIM_YN,AEENTIM_YN - Resolution Time Known?,1
+Intra,Visible,4,"""[CEONGO]""==""N""",SYM_L_D04,All / None,CE_SYM - Symptoms,CEENDAT,CEENDAT - End Date,1
+Intra,Visible,4,"""[CMROUTE]""==""OTHER""",CM_L_D04,All / None,CM - Medications,CMROUTE_OTH,CMROUTE_OTH - Specify other route,1
+Intra,Visible,4,"""[DSDECOD_COMP]""==""OTHER""",COMP_L_D04,All / None,DS_COMP - Study Completion / Discontinuation,DSTERMOTH_COMP,DSTERMOTH_COMP - Specify Other Reason(s) for Withdrawal,1
+Intra,Visible,4,"""[DSPERF2_IC]""==""Y""",IC_L_D04,All / None,DS_IC - Informed Consent,DSPRV2_IC,DSPRV2_IC - Protocol Version at Time of Sub-Study Consent,1
+Intra,Visible,4,"""[DSPERF2_IC]""==""Y""",IC_L_D04,All / None,DS_IC - Informed Consent,DSSTDAT2_IC,DSSTDAT2_IC - Date Patient Signed Sub-Study Consent,1
+Intra,Visible,4,"""[DVHRECNOT]""==""Y""",DV_L_D04,All / None,DV - Protocol Deviations,DVHRECNOTDAT,DVHRECNOTDAT - HREC Notification Date,1
+Intra,Visible,4,"""[EGASSESS]""==""ABNORMAL""",EG_L_D04,All / None,EG - Electrocardiogram,EGCLSIG,EGCLSIG - Were the abnormality(s) clinically significant?,1
+Intra,Visible,4,"""[RACE]""==""OTHER""",DM_L_D04,All / None,DM - Demographics,RACEOTH,RACEOTH - Specify other race,1
+Intra,Visible,5,"""[AEENTIM_YN]""==""Y""",AE_L_D05,All / None,AE - Adverse Events,AEENTIM,AEENTIM - Resolution Time,1
+Intra,Visible,5,"""[CMONGO]""==""N""",CM_L_D05,All / None,CM - Medications,CMENDAT_t,End Date,1
+Intra,Visible,5,"""[DSDECOD_COMP]""==""LOST_TO_FOLLOW-UP""",COMP_L_D05,All / None,DS_COMP - Study Completion / Discontinuation,Table1,*Null value*,1
+Intra,Visible,5,"""[DSPERF2_IC]""==""N""",IC_L_D05,All / None,DS_IC - Informed Consent,Head3,Assessments relating to the sub-study should NOT be performed on this patient,1
+Intra,Visible,5,"""[HOYN_HOSP]""==""Y""",SYM_L_D05,All / None,CE_SYM - Symptoms,HOONGO_HOSP,HOONGO_HOSP - Hospital Ongoing?,1
+Intra,Visible,5,"""[HOYN_HOSP]""==""Y""",SYM_L_D05,All / None,CE_SYM - Symptoms,HOSTDAT_HOSP,HOSTDAT_HOSP - Admission Date,1
+Intra,Visible,6,"""[AESHOSP]""==""Y""",AE_L_D06,All / None,AE - Adverse Events,AEHENDAT_YN,AEHENDAT_YN - Has the patient been discharged from hospital yet?,1
+Intra,Visible,6,"""[AESHOSP]""==""Y""",AE_L_D06,All / None,AE - Adverse Events,AEHSTDAT,AEHSTDAT - Hospital Admission Date,1
+Intra,Visible,6,"""[DSDECOD_COMP]""==""SCREEN_FAILURE""",COMP_L_D06,All / None,DS_COMP - Study Completion / Discontinuation,DSTERMSF_COMP,DSTERMSF_COMP - Reason for Screen Failure (include eligibility criteria numbers failed),1
+Intra,Visible,6,"""[DSPRV2_IC]""==""OTHER""",IC_L_D06,All / None,DS_IC - Informed Consent,DSPRDTOTH2_IC,DSPRDTOTH2_IC - Date,1
+Intra,Visible,6,"""[DSPRV2_IC]""==""OTHER""",IC_L_D06,All / None,DS_IC - Informed Consent,DSPRVOTH2_IC,DSPRVOTH2_IC - Other Version,1
+Intra,Visible,6,"""[HOONGO_HOSP]""==""N""",SYM_L_D06,All / None,CE_SYM - Symptoms,HOENDAT_HOSP,HOENDAT_HOSP - Discharge Date,1
+Intra,Visible,7,"""[AEHENDAT_YN]""==""Y""",AE_L_D07,All / None,AE - Adverse Events,AEHENDAT,AEHENDAT - Hospital Discharge Date,1
+Intra,Visible,7,"""[DSDECOD_COMP]""==""PHYSICIAN_DECISION""",COMP_L_D07,All / None,DS_COMP - Study Completion / Discontinuation,DSTERMIW_COMP,DSTERMIW_COMP - Reason for Investigator Withdrawal,1
+Intra,Visible,8,"""[AESNOTYN]""==""Y""",AE_L_D08,All / None,AE - Adverse Events,AENOTDAT,AENOTDAT - Sponsor Notification Date,1
+Intra,Visible,8,"""[AESNOTYN]""==""Y""",AE_L_D08,All / None,AE - Adverse Events,AENOTTYP,AENOTTYP - Method of Notification,1
+Intra,Visible,9,"""[AEREL_PRO]""==""POSSIBLY_RELATED"" || ""[AEREL_PRO]""==""PROBABLY_RELATED"" || ""[AEREL_PRO]""==""RELATED""",AE_L_D09,All / None,AE - Adverse Events,AEREL_PROSP,AEREL_PROSP - Specify Procedure(s),1
+Intra,Visible,10,[!AEACNOTH_NONE],AE_L_D10,All / None,AE - Adverse Events,AEACNOTH_DRUG,AEACNOTH_DRUG - Drug Intervention (medication taken),1
+Intra,Visible,10,[!AEACNOTH_NONE],AE_L_D10,All / None,AE - Adverse Events,AEACNOTH_NDRNPR,"AEACNOTH_NDRNPR - Other Intervention (e.g. physiotherapy, hospitalisation)",1
+Intra,Visible,10,[!AEACNOTH_NONE],AE_L_D10,All / None,AE - Adverse Events,AEACNOTH_PROC,AEACNOTH_PROC - Procedural Intervention (procedure or surgery performed),1
+Intra,Visible,10,[!AEACNOTH_NONE],AE_L_D10,All / None,AE - Adverse Events,AEACNOTH_TESTS,"AEACNOTH_TESTS - Assessment / Test (e.g. ECG, lab test)",1
+Intra,Visible,11,[@AEACNOTH_NDRNPR],AE_L_D11,All / None,AE - Adverse Events,AEACNOTH_NDRNPR_SP,AEACNOTH_NDRNPR_SP - Specify Other Intervention(s),1
+Intra,Visible,12,[@AEACNOTH_TESTS],AE_L_D12,All / None,AE - Adverse Events,AEACNOTH_TESTS_SP,AEACNOTH_TESTS_SP - Specify Assessment(s) / Test(s),1

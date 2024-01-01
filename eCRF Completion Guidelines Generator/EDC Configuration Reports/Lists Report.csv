@@ -1,0 +1,354 @@
+List Code (Ascending),Description,Display value and caption,Element - Literal,Element - Value,Element - Sequence,Element - Requires access,Count Number
+AE Device/Procedure Causality,List of device and procedure causality options for Adverse Events.,No,Not Related,NOT_RELATED,1,No,1
+AE Device/Procedure Causality,List of device and procedure causality options for Adverse Events.,No,Unlikely Related,UNLIKELY_RELATED,2,No,1
+AE Device/Procedure Causality,List of device and procedure causality options for Adverse Events.,No,Possibly Related,POSSIBLY_RELATED,3,No,1
+AE Device/Procedure Causality,List of device and procedure causality options for Adverse Events.,No,Probably Related,PROBABLY_RELATED,4,No,1
+AE Device/Procedure Causality,List of device and procedure causality options for Adverse Events.,No,Related,RELATED,5,No,1
+AE Outcome - CDISC,List of standard CDISC AE outcome options.,No,Recovered,RECOVERED,1,No,1
+AE Outcome - CDISC,List of standard CDISC AE outcome options.,No,Recovering,RECOVERING,2,No,1
+AE Outcome - CDISC,List of standard CDISC AE outcome options.,No,Recovered with Sequelae,RECOVERED_WITH_SEQUELAE,3,No,1
+AE Outcome - CDISC,List of standard CDISC AE outcome options.,No,Not Recovered,NOT_RECOVERED,4,No,1
+AE Outcome - CDISC,List of standard CDISC AE outcome options.,No,Death,FATAL,5,No,1
+AE Outcome - CDISC,List of standard CDISC AE outcome options.,No,Unknown,UNKNOWN,6,No,1
+AE SAE Notification Type,List of notification options for Sponsor SAE notification.,No,Phone,PHONE,1,No,1
+AE SAE Notification Type,List of notification options for Sponsor SAE notification.,No,Email,EMAIL,2,No,1
+AE SAE Notification Type,List of notification options for Sponsor SAE notification.,No,EDC Entry,EDC_ENTRY,3,No,1
+AE Severity - CDISC,List of AE severity options for the study.,No,Mild (Grade 1),MILD,1,No,1
+AE Severity - CDISC,List of AE severity options for the study.,No,Moderate (Grade 2),MODERATE,2,No,1
+AE Severity - CDISC,List of AE severity options for the study.,No,Severe (Grade 3),SEVERE,3,No,1
+AE Severity - CDISC,List of AE severity options for the study.,No,Life-Threatening (Grade 4),LIFE_THREATENING,4,No,1
+AE Severity - CDISC,List of AE severity options for the study.,No,Death (Grade 5),DEATH,5,No,1
+Assessment Names,List of assessments for the study.,No,Electrocardiogram,ECG,1,No,1
+Assessment Names,List of assessments for the study.,No,Pregnancy Test,PREG,2,No,1
+Assessment Names,List of assessments for the study.,No,Neurological Examination,NEURO,3,No,1
+CDISC CM Dose Form,List of Con Med dose form options per CDISC.,No,Aersol,AEROSOL,1,No,1
+CDISC CM Dose Form,List of Con Med dose form options per CDISC.,No,Capsule,CAPSULE,2,No,1
+CDISC CM Dose Form,List of Con Med dose form options per CDISC.,No,Cream,CREAM,3,No,1
+CDISC CM Dose Form,List of Con Med dose form options per CDISC.,No,Gas,GAS,4,No,1
+CDISC CM Dose Form,List of Con Med dose form options per CDISC.,No,Gel,GEL,5,No,1
+CDISC CM Dose Form,List of Con Med dose form options per CDISC.,No,Inhalant,INHALANT,6,No,1
+CDISC CM Dose Form,List of Con Med dose form options per CDISC.,No,Injectable,INJECTABLE,7,No,1
+CDISC CM Dose Form,List of Con Med dose form options per CDISC.,No,Liquid,LIQUID,8,No,1
+CDISC CM Dose Form,List of Con Med dose form options per CDISC.,No,Ointment,OINTMENT,9,No,1
+CDISC CM Dose Form,List of Con Med dose form options per CDISC.,No,Patch,PATCH,10,No,1
+CDISC CM Dose Form,List of Con Med dose form options per CDISC.,No,Powder,POWDER,11,No,1
+CDISC CM Dose Form,List of Con Med dose form options per CDISC.,No,Spray,SPRAY,12,No,1
+CDISC CM Dose Form,List of Con Med dose form options per CDISC.,No,Suppository,SUPPOSITORY,13,No,1
+CDISC CM Dose Form,List of Con Med dose form options per CDISC.,No,Suspension,SUSPENSION,14,No,1
+CDISC CM Dose Form,List of Con Med dose form options per CDISC.,No,Tablet,TABLET,15,No,1
+CDISC CM Dose Form,List of Con Med dose form options per CDISC.,No,Other,OTHER,16,No,1
+CDISC CM Frequency,List of Con Med frequency options per CDISC.,No,Twice Daily,BID,1,No,1
+CDISC CM Frequency,List of Con Med frequency options per CDISC.,No,Once,ONCE,2,No,1
+CDISC CM Frequency,List of Con Med frequency options per CDISC.,No,As Needed,PRN,3,No,1
+CDISC CM Frequency,List of Con Med frequency options per CDISC.,No,Daily,QD,4,No,1
+CDISC CM Frequency,List of Con Med frequency options per CDISC.,No,Every Other Day,QOD,5,No,1
+CDISC CM Frequency,List of Con Med frequency options per CDISC.,No,Three Times Daily,TID,6,No,1
+CDISC CM Frequency,List of Con Med frequency options per CDISC.,No,Unknown,UNKNOWN,7,No,1
+CDISC CM Frequency,List of Con Med frequency options per CDISC.,No,Other,OTHER,8,No,1
+CDISC CM Route,List of Con Med route options per CDISC.,No,Intralesional,INTRALESIONAL,1,No,1
+CDISC CM Route,List of Con Med route options per CDISC.,No,Intramuscular,INTRAMUSCULAR,2,No,1
+CDISC CM Route,List of Con Med route options per CDISC.,No,Intraocular,INTRAOCULAR,3,No,1
+CDISC CM Route,List of Con Med route options per CDISC.,No,Intraperitoneal,INTRAPERITONEAL,4,No,1
+CDISC CM Route,List of Con Med route options per CDISC.,No,Nasal,NASAL,5,No,1
+CDISC CM Route,List of Con Med route options per CDISC.,No,Oral,ORAL,6,No,1
+CDISC CM Route,List of Con Med route options per CDISC.,No,Rectal,RECTAL,7,No,1
+CDISC CM Route,List of Con Med route options per CDISC.,No,Inhalation,INHALATION,8,No,1
+CDISC CM Route,List of Con Med route options per CDISC.,No,Subcutaneous,SUBCUTANEOUS,9,No,1
+CDISC CM Route,List of Con Med route options per CDISC.,No,Topical,TOPICAL,10,No,1
+CDISC CM Route,List of Con Med route options per CDISC.,No,Transdermal,TRANSDERMAL,11,No,1
+CDISC CM Route,List of Con Med route options per CDISC.,No,Vaginal,VAGINAL,12,No,1
+CDISC CM Route,List of Con Med route options per CDISC.,No,Other,OTHER,13,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,% (Volume per Volume),perc.vol-vol,1,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,Capsule(s),CAP,2,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,Gram(s),g,3,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,Inhalation(s),INHALATION,4,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,International Dosing Unit(s),IU,5,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,Litre(s) per Hour,L.h,6,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,Litre(s) per Minute,L.min,7,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,Milligram(s),mg,8,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,Milligram(s) per Kilogram,mg.kg,9,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,Millilitre(s),mL,10,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,Millilitre(s) per Hour,mL.h,11,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,Millilitre(s) per Kilogram,mL.kg,12,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,Puff(s),PUFF,13,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,Spray(s),SPRAY,14,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,Tablet(s),TAB,15,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,Microgram(s),ug,16,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,Microgram(s) per Kilogram,ug.kg,17,No,1
+CDISC CM Units,List of Con Med dose unit options per CDISC.,No,Other,OTHER,18,No,1
+CDISC DE Action Taken,List of device event action taken options per CDISC.,No,None,NONE,1,No,1
+CDISC DE Action Taken,List of device event action taken options per CDISC.,No,Device Removed or Replaced,REMOVAL,2,No,1
+CDISC DE Action Taken,List of device event action taken options per CDISC.,No,Device Recalibrated,CALIBRATION,3,No,1
+CDISC DE Action Taken,List of device event action taken options per CDISC.,No,Device Reprogrammed,REPROGRAMMING,4,No,1
+CDISC DE Category,List of device event category options per CDISC.,No,Operational Malfunction,DEVICE_OPERATIONAL_ISSUE,1,No,1
+CDISC DE Category,List of device event category options per CDISC.,No,Failure to Calibrate,CALIBRATION_FAILURE,2,No,1
+CDISC DE Category,List of device event category options per CDISC.,No,Software Malfunction,COMPUTER_SOFTWARE_ISSUE,3,No,1
+CDISC DE Category,List of device event category options per CDISC.,No,Failure to Store or Transmit Data,DATA_STORAGE_FAILURE,4,No,1
+CDISC DE Category,List of device event category options per CDISC.,No,Use Error,USE_ERROR,5,No,1
+CDISC DE Category,List of device event category options per CDISC.,No,Intentional Misuse,INTENTIONAL_MISUSE,6,No,1
+CDISC DE Frequency,List of device event frequency options per CDISC.,No,Single Event,ONCE,1,No,1
+CDISC DE Frequency,List of device event frequency options per CDISC.,No,Intermittent,INTERMITTENT,2,No,1
+CDISC DE Frequency,List of device event frequency options per CDISC.,No,Continuous,CONTINUOUS,3,No,1
+CDISC DE Frequency,List of device event frequency options per CDISC.,No,Unknown,UNKNOWN,4,No,1
+CDISC DE Setting,List of environmental setting options per CDISC.,No,In-Clinic,CLINIC,1,No,1
+CDISC DE Setting,List of environmental setting options per CDISC.,No,At Home,HOME,2,No,1
+CDISC DE Setting,List of environmental setting options per CDISC.,No,At School,SCHOOL,3,No,1
+CDISC DE Setting,List of environmental setting options per CDISC.,No,At Work,WORKSITE,4,No,1
+CDISC DE Setting,List of environmental setting options per CDISC.,No,At Hospital,HOSPITAL,5,No,1
+CDISC DE Setting,List of environmental setting options per CDISC.,No,During Transportation,MOTOR_VEHICLE,6,No,1
+CDISC DE Setting,List of environmental setting options per CDISC.,No,Other,OTHER,7,No,1
+CDISC IE Category,Inclusion vs exclusion categories.,No,Inclusion,INCLUSION,1,No,1
+CDISC IE Category,Inclusion vs exclusion categories.,No,Exclusion,EXCLUSION,2,No,1
+CE - Symptom Categories,List of categories experienced symptoms are indicative of.,No,Atrial Fibrillation,AF,1,No,1
+CE - Symptom Categories,List of categories experienced symptoms are indicative of.,No,Atrial Tachycardia,AT,2,No,1
+CE - Symptom Categories,List of categories experienced symptoms are indicative of.,No,Atrial Flutter,AFL,3,No,1
+CE - Symptom Categories,List of categories experienced symptoms are indicative of.,No,Other,OTHER,4,No,1
+CM & PR - Indication Categories,Indication category list to help identify what other dataset the information needs to be reconciled with in the database.,No,Medical History,MH,1,No,1
+CM & PR - Indication Categories,Indication category list to help identify what other dataset the information needs to be reconciled with in the database.,No,Adverse Event,AE,2,No,1
+CM & PR - Indication Categories,Indication category list to help identify what other dataset the information needs to be reconciled with in the database.,No,Prophylaxis,PROPHYLAXIS,4,No,1
+CM & PR - Indication Categories,Indication category list to help identify what other dataset the information needs to be reconciled with in the database.,No,Other,OTHER,5,No,1
+CM & PR - Indication Categories,Indication category list to help identify what other dataset the information needs to be reconciled with in the database.,No,Arrhythmia Symptom,DISEASE_SYMPTOM,3,No,1
+CM - Drug Categories,List of drug categories.,No,Anti-Arrhythmic,ANTI_ARRHYTHMIC,1,No,1
+CM - Drug Categories,List of drug categories.,No,Other,OTHER,2,No,1
+Days,"List of all possible days in the month, including unknown option.",No,UNK,UN,1,No,1
+Days,"List of all possible days in the month, including unknown option.",No,1,1,2,No,1
+Days,"List of all possible days in the month, including unknown option.",No,2,2,3,No,1
+Days,"List of all possible days in the month, including unknown option.",No,3,3,4,No,1
+Days,"List of all possible days in the month, including unknown option.",No,4,4,5,No,1
+Days,"List of all possible days in the month, including unknown option.",No,5,5,6,No,1
+Days,"List of all possible days in the month, including unknown option.",No,6,6,7,No,1
+Days,"List of all possible days in the month, including unknown option.",No,7,7,8,No,1
+Days,"List of all possible days in the month, including unknown option.",No,8,8,9,No,1
+Days,"List of all possible days in the month, including unknown option.",No,9,9,10,No,1
+Days,"List of all possible days in the month, including unknown option.",No,10,10,11,No,1
+Days,"List of all possible days in the month, including unknown option.",No,11,11,12,No,1
+Days,"List of all possible days in the month, including unknown option.",No,12,12,13,No,1
+Days,"List of all possible days in the month, including unknown option.",No,13,13,14,No,1
+Days,"List of all possible days in the month, including unknown option.",No,14,14,15,No,1
+Days,"List of all possible days in the month, including unknown option.",No,15,15,16,No,1
+Days,"List of all possible days in the month, including unknown option.",No,16,16,17,No,1
+Days,"List of all possible days in the month, including unknown option.",No,17,17,18,No,1
+Days,"List of all possible days in the month, including unknown option.",No,18,18,19,No,1
+Days,"List of all possible days in the month, including unknown option.",No,19,19,20,No,1
+Days,"List of all possible days in the month, including unknown option.",No,20,20,21,No,1
+Days,"List of all possible days in the month, including unknown option.",No,21,21,22,No,1
+Days,"List of all possible days in the month, including unknown option.",No,22,22,23,No,1
+Days,"List of all possible days in the month, including unknown option.",No,23,23,24,No,1
+Days,"List of all possible days in the month, including unknown option.",No,24,24,25,No,1
+Days,"List of all possible days in the month, including unknown option.",No,25,25,26,No,1
+Days,"List of all possible days in the month, including unknown option.",No,26,26,27,No,1
+Days,"List of all possible days in the month, including unknown option.",No,27,27,28,No,1
+Days,"List of all possible days in the month, including unknown option.",No,28,28,29,No,1
+Days,"List of all possible days in the month, including unknown option.",No,29,29,30,No,1
+Days,"List of all possible days in the month, including unknown option.",No,30,30,31,No,1
+Days,"List of all possible days in the month, including unknown option.",No,31,31,32,No,1
+Deviation Category,List of deviation category options for the study.,No,Visit or assessment performed outside of the allowed window,ASST_OUT_OF_WINDOW,1,No,1
+Deviation Category,List of deviation category options for the study.,No,Assessment completely missed or not done,ASST_NOT_DONE,2,No,1
+Deviation Category,List of deviation category options for the study.,No,Assessment performed but not as per protocol,ASST_NOT_PER_PROTOCOL,3,No,1
+Deviation Category,List of deviation category options for the study.,No,Patient enrolled despite being ineligible,INELIGIBLE_ENROLLMENT,4,No,1
+Deviation Category,List of deviation category options for the study.,No,Other,OTHER,5,No,1
+DS_COMP - Completion / Discontinuation Status,List of completion / discontinuation statuses for the study.,No,Completed the Study as per Protocol,COMPLETED,1,No,1
+DS_COMP - Completion / Discontinuation Status,List of completion / discontinuation statuses for the study.,No,Screen Failure,SCREEN_FAILURE,2,No,1
+DS_COMP - Completion / Discontinuation Status,List of completion / discontinuation statuses for the study.,No,Lost to Follow-Up,LOST_TO_FOLLOW-UP,3,No,1
+DS_COMP - Completion / Discontinuation Status,List of completion / discontinuation statuses for the study.,No,Withdrawal of Consent,WITHDRAWAL_OF_CONSENT,4,No,1
+DS_COMP - Completion / Discontinuation Status,List of completion / discontinuation statuses for the study.,No,Withdrawal by Investigator,PHYSICIAN_DECISION,5,No,1
+DS_COMP - Completion / Discontinuation Status,List of completion / discontinuation statuses for the study.,No,Withdrawal due to Adverse Event,ADVERSE_EVENT,6,No,1
+DS_COMP - Completion / Discontinuation Status,List of completion / discontinuation statuses for the study.,No,Withdrawal due to Protocol Deviation,PROTOCOL_DEVIATION,7,No,1
+DS_COMP - Completion / Discontinuation Status,List of completion / discontinuation statuses for the study.,No,Withdrawal due to Study Termination,STUDY_TERMINATED_BY_SPONSOR,8,No,1
+DS_COMP - Completion / Discontinuation Status,List of completion / discontinuation statuses for the study.,No,Withdrawal due to Other Reason(s),OTHER,9,No,1
+DS_COMP - Lost To Follow-Up Attempt 4 Methods,List of methods for lost to follow-up attempt 4.,No,Letter,LETTER,1,No,1
+DS_COMP - Lost To Follow-Up Attempt 4 Methods,List of methods for lost to follow-up attempt 4.,No,Email,EMAIL,2,No,1
+Ethnicity - CDISC,CDISC ethnicity options.,No,Hispanic or Latino,HISPANIC_OR_LATINO,1,No,1
+Ethnicity - CDISC,CDISC ethnicity options.,No,Not Hispanic or Latino,NOT_HISPANIC_OR_LATINO,2,No,1
+Ethnicity - CDISC,CDISC ethnicity options.,No,Unknown,UNKNOWN,3,No,1
+Ethnicity - CDISC,CDISC ethnicity options.,No,Not Reported,NOT_REPORTED,4,No,1
+IC_RE - Reconsent Types,List of reconsent types for UNS consent form.,No,Main study consent,MAIN_STUDY,1,No,1
+IC_RE - Reconsent Types,List of reconsent types for UNS consent form.,No,Sub-study consent,SUB_STUDY,2,No,1
+IC_RE - Reconsent Types,List of reconsent types for UNS consent form.,No,Main & sub-study consent,BOTH,3,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,INC 01,INC01,1,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 01,EXC01,7,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,INC 02,INC02,2,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,INC 03.1,INC03.1,3,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,INC 03.2a,INC03.2a,4,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,INC 03.2b,INC03.2b,5,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,INC 04,INC04,6,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 02,EXC02,8,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 03,EXC03,9,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 04,EXC04,10,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 05,EXC05,11,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 06,EXC06,12,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 07,EXC07,13,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 08,EXC08,14,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 09,EXC09,15,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 10,EXC10,16,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 11,EXC11,17,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 12,EXC12,18,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 13.1,EXC13.1,19,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 13.2,EXC13.2,20,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 13.3,EXC13.3,21,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 13.4,EXC13.4,22,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 13.5,EXC13.5,23,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 13.6,EXC13.6,24,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 14,EXC14,25,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 15,EXC15,26,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 16,EXC16,27,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 17,EXC17,28,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 18,EXC18,29,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 19,EXC19,30,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 20,EXC20,31,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 21,EXC21,32,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 22,EXC22,33,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 23,EXC23,34,No,1
+IE Criteria,List of inclusion/exclusion criteria identifiers for the study.,No,EXC 24,EXC24,35,No,1
+Months,"List of all 12 months, including unknown option.",No,UNK,UNK,1,No,1
+Months,"List of all 12 months, including unknown option.",No,JAN,1,2,No,1
+Months,"List of all 12 months, including unknown option.",No,FEB,2,3,No,1
+Months,"List of all 12 months, including unknown option.",No,MAR,3,4,No,1
+Months,"List of all 12 months, including unknown option.",No,APR,4,5,No,1
+Months,"List of all 12 months, including unknown option.",No,MAY,5,6,No,1
+Months,"List of all 12 months, including unknown option.",No,JUN,6,7,No,1
+Months,"List of all 12 months, including unknown option.",No,JUL,7,8,No,1
+Months,"List of all 12 months, including unknown option.",No,AUG,8,9,No,1
+Months,"List of all 12 months, including unknown option.",No,SEP,9,10,No,1
+Months,"List of all 12 months, including unknown option.",No,OCT,10,11,No,1
+Months,"List of all 12 months, including unknown option.",No,NOV,11,12,No,1
+Months,"List of all 12 months, including unknown option.",No,DEC,12,13,No,1
+Normal/Abnormal Assessment,Assessment result options.,No,Normal,NORMAL,1,No,1
+Normal/Abnormal Assessment,Assessment result options.,No,Abnormal,ABNORMAL,2,No,1
+PR - Cardioversion Outcomes,List of cardioversion outcomes.,No,Success,SUCCESS,1,No,1
+PR - Cardioversion Outcomes,List of cardioversion outcomes.,No,Partial Success,PARTIAL_SUCCESS,2,No,1
+PR - Cardioversion Outcomes,List of cardioversion outcomes.,No,Failure,FAILURE,3,No,1
+PR - Cardioversion Types,List of cardioversion types.,No,Electrical,ELECTRICAL,1,No,1
+PR - Cardioversion Types,List of cardioversion types.,No,Chemical,CHEMICAL,2,No,1
+Pregnancy Positive/Negative/Indeterminate-CDISC,Pregnancy test result options,No,Negative,NEGATIVE,1,No,1
+Pregnancy Positive/Negative/Indeterminate-CDISC,Pregnancy test result options,No,Positive,POSITIVE,2,No,1
+Pregnancy Positive/Negative/Indeterminate-CDISC,Pregnancy test result options,No,Indeterminate,INDETERMINATE,3,No,1
+Pregnancy Test Sub-Categories,Pregnancy test sample types,No,Serum,SERUM,1,No,1
+Pregnancy Test Sub-Categories,Pregnancy test sample types,No,Urine,URINE,2,No,1
+Protocol Version,Approved protocol versions.,No,"Version 1.0, dated 01-Jan-2023",V1,1,No,1
+Protocol Version,Approved protocol versions.,No,Other,OTHER,2,No,1
+Race - CDISC,CDISC race options.,No,White,WHITE,1,No,1
+Race - CDISC,CDISC race options.,No,Aboriginal and Torres Strait Islander,ABORIGINAL_AND_TORRES_STRAIT_ISLANDER,2,No,1
+Race - CDISC,CDISC race options.,No,Black or African American,BLACK_OR_AFRICAN_AMERICAN,3,No,1
+Race - CDISC,CDISC race options.,No,Asian,ASIAN,4,No,1
+Race - CDISC,CDISC race options.,No,Native Hawaiian or Other Pacific Islander,NATIVE_HAWAIIAN_OR_OTHER_PACIFIC_ISLANDER,5,No,1
+Race - CDISC,CDISC race options.,No,American Indian or Alaska Native,AMERICAN_INDIAN_OR_ALASKA_NATIVE,6,No,1
+Race - CDISC,CDISC race options.,No,Unknown,UNKNOWN,7,No,1
+Race - CDISC,CDISC race options.,No,Not Reported,NOT_REPORTED,8,No,1
+Race - CDISC,CDISC race options.,No,Other,OTHER,9,No,1
+SEX-CDISC,"Sex options list, CDISC.",No,Male,M,1,No,1
+SEX-CDISC,"Sex options list, CDISC.",No,Female,F,2,No,1
+Substance Use Status,Substance use status options.,No,Current,CURRENT,1,No,1
+Substance Use Status,Substance use status options.,No,Former,FORMER,2,No,1
+Substance Use Status,Substance use status options.,No,Never,NEVER,3,No,1
+Visit Names,List of all visits in the study.,No,Inclusion Visit,INCLUSION_VISIT,1,No,1
+Visit Names,List of all visits in the study.,No,Screening,SCREENING,2,No,1
+Visit Names,List of all visits in the study.,No,Day 1 - Procedure,D1,3,No,1
+Visit Names,List of all visits in the study.,No,Day 30 - Follow-Up,D30,4,No,1
+Visit Names,List of all visits in the study.,No,Day 90 - Follow-Up,D90,5,No,1
+Visit Names,List of all visits in the study.,No,Common Forms,COMMON_FORMS,6,No,1
+Visit Names,List of all visits in the study.,No,Unscheduled Visit,UNSCHEDULED_VISIT,7,No,1
+Visit Names,List of all visits in the study.,No,Not Applicable,NOT_APPLICABLE,8,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,UNK,UKUK,1,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2026,2026,2,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2025,2025,3,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2024,2024,4,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2023,2023,5,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2022,2022,6,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2021,2021,7,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2020,2020,8,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2019,2019,9,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2018,2018,10,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2017,2017,11,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2016,2016,12,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2015,2015,13,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2014,2014,14,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2013,2013,15,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2012,2012,16,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2011,2011,17,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2010,2010,18,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2009,2009,19,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2008,2008,20,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2007,2007,21,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2006,2006,22,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2005,2005,23,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2004,2004,24,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2003,2003,25,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2002,2002,26,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2001,2001,27,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,2000,2000,28,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1999,1999,29,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1998,1998,30,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1997,1997,31,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1996,1996,32,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1995,1995,33,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1994,1994,34,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1993,1993,35,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1992,1992,36,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1991,1991,37,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1990,1990,38,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1989,1989,39,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1988,1988,40,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1987,1987,41,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1986,1986,42,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1985,1985,43,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1984,1984,44,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1983,1983,45,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1982,1982,46,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1981,1981,47,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1980,1980,48,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1979,1979,49,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1978,1978,50,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1977,1977,51,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1976,1976,52,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1975,1975,53,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1974,1974,54,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1973,1973,55,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1972,1972,56,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1971,1971,57,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1970,1970,58,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1969,1969,59,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1968,1968,60,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1967,1967,61,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1966,1966,62,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1965,1965,63,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1964,1964,64,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1963,1963,65,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1962,1962,66,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1961,1961,67,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1960,1960,68,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1959,1959,69,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1958,1958,70,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1957,1957,71,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1956,1956,72,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1955,1955,73,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1954,1954,74,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1953,1953,75,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1952,1952,76,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1951,1951,77,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1950,1950,78,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1949,1949,79,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1948,1948,80,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1947,1947,81,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1946,1946,82,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1945,1945,83,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1944,1944,84,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1943,1943,85,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1942,1942,86,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1941,1941,87,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1940,1940,88,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1939,1939,89,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1938,1938,90,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1937,1937,91,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1936,1936,92,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1935,1935,93,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1934,1934,94,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1933,1933,95,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1932,1932,96,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1931,1931,97,No,1
+Years,"List of all years from 1930 to 2026, including unknown option.",No,1930,1930,98,No,1
+Yes/No-CDISC,CDISC Yes / No options.,No,Yes,Y,1,No,1
+Yes/No-CDISC,CDISC Yes / No options.,No,No,N,2,No,1
+Yes/No/NRQ,Yes/No/NRQ options.,No,Yes,Y,1,No,1
+Yes/No/NRQ,Yes/No/NRQ options.,No,No,N,2,No,1
+Yes/No/NRQ,Yes/No/NRQ options.,No,Not Required,NRQ,3,No,1
